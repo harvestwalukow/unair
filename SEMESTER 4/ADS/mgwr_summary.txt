@@ -1,0 +1,171 @@
+*****************************************************************************
+*             Semiparametric Geographically Weighted Regression             *
+*                         Release 1.0.80 (GWR 4.0.80)                       *
+*                               12 March 2014                               *
+*                 (Originally coded by T. Nakaya: 1 Nov 2009)               *
+*                                                                           *
+*              Tomoki Nakaya(1), Martin Charlton(2), Paul Lewis(2),         *
+*         Jing Yao (3), A. Stewart Fotheringham (3), Chris Brunsdon (2)     *
+*                       (c) GWR4 development team                           *
+* (1) Ritsumeikan University, (2) National University of Ireland, Maynooth, *
+*         (3) University of St. Andrews                                     *
+*****************************************************************************
+
+Program began at 6/21/2025 6:59:01 PM
+
+*****************************************************************************
+Session: 
+Session control file: D:\UNAIR\SEMESTER 4\ADS\mgwr.ctl
+*****************************************************************************
+Data filename: D:\UNAIR\SEMESTER 4\ADS\data_mgwr.csv
+Number of areas/points: 34
+
+Model settings---------------------------------
+Model type: Gaussian
+Geographic kernel: adaptive bi-square
+Method for optimal bandwidth search: Golden section search
+Criterion for optimal bandwidth: AICc
+Number of varying coefficients: 2
+Number of fixed coefficients:   1
+
+Modelling options---------------------------------
+Standardisation of independent variables: OFF
+Testing geographical variability of local coefficients: OFF
+Local to Global Variable selection: OFF
+Global to Local Variable selection: OFF
+Prediction at non-regression points: OFF
+
+Variable settings---------------------------------
+Area key: field1: Provinsi
+Easting (x-coord): field2 : X(LONG)
+Northing (y-coord): field3: Y(LAT)
+Lat-lon coordinates: Spherical distance
+Dependent variable: field4: 2023
+Offset variable is not specified
+Intercept: no intercept term is assigned.
+Independent variable with varying (Local) coefficient: field8: Mikro
+Independent variable with varying (Local) coefficient: field10: Datang
+Independent variable with fixed (Global) coefficient: field11: Berangkat
+*****************************************************************************
+
+*****************************************************************************
+  Global regression result
+*****************************************************************************
+  < Diagnostic information >
+Residual sum of squares:        6874403241324220.000000
+Number of parameters:                        3
+ (Note: this num does not include an error variance term for a Gaussian model)
+ML based global sigma estimate:      14219294.308340
+Unbiased global sigma estimate:      14891438.589623
+-2 log-likelihood:                       1216.455324
+Classic AIC:                             1224.455324
+AICc:                                    1225.834635
+BIC/MDL:                                 1230.560766
+CV:                             1185314174421110.000000
+R square:                                   0.901865
+Adjusted R square:                          0.892051
+
+Variable                  Estimate    Standard Error      t(Est/SE) 
+-------------------- --------------- --------------- ---------------
+Mikro                      22.057941        1.298073       16.992833
+Datang                      6.826495        6.712778        1.016940
+Berangkat                  -5.814937        7.003284       -0.830316
+
+*****************************************************************************
+  GWR (Geographically weighted regression) bandwidth selection
+*****************************************************************************
+
+Bandwidth search <golden section search>
+  Limits: 46,  34
+
+ Error in the initial weight calculation loop
+Index was outside the bounds of the array.
+ Error in the initial weight calculation loop
+Index was outside the bounds of the array.
+ Error in the initial weight calculation loop
+Index was outside the bounds of the array. Golden section search begins...
+ Initial values
+  pL            Bandwidth:    46.000 Criterion:   1233.263
+  p1            Bandwidth:    41.416 Criterion:   1233.263
+  p2            Bandwidth:    38.584 Criterion:   1233.263
+  pU            Bandwidth:    34.000 Criterion:   1233.263
+
+ Error in the initial weight calculation loop
+Index was outside the bounds of the array.Best bandwidth size  0.000
+Minimum AICc     1233.263
+
+*****************************************************************************
+  GWR (Geographically weighted regression) result
+*****************************************************************************
+  Bandwidth and geographic ranges
+Bandwidth size:                    0.000000
+Coordinate                Min              Max           Range
+--------------- --------------- --------------- ---------------
+X-coord               96.911736      138.687421     4640.549011
+Y-coord               -9.263916        4.224069     1499.797522
+ (Note: Ranges are shown in km.) 
+
+  Diagnostic information
+Residual sum of squares:             0.000000
+Effective number of parameters (model: trace(S)):                     3.187847
+Effective number of parameters (variance: trace(S'S)):                5.957355
+ (Warning: trace(S) is smaller than trace(S'S). It means the variance of the predictions is inadequately inflated.)
+ (Note: n - trace(S) is used for computing the error variance as the degree of freedom.)
+Degree of freedom (model: n - trace(S)):                             30.812153
+Degree of freedom (residual: n - trace(S)):                          30.812153
+ML based sigma estimate:             0.000000
+Unbiased sigma estimate:             0.000000
+-2 log-likelihood:                1223.379596
+Classic AIC:                      1231.755291
+AICc:                             1233.263399
+BIC/MDL:                          1238.147456
+CV:                      38098895428456600.000000
+R square:                            1.000000
+Adjusted R square:                   1.000000
+
+***********************************************************
+ << Fixed (Global) coefficients >>
+***********************************************************
+ Variable             Estimate        Standard Error  t(Estimate/SE)
+-------------------- --------------- --------------- ---------------
+Berangkat                  -5.814937        0.000000              -?
+
+***********************************************************
+ << Geographically varying (Local) coefficients >>
+***********************************************************
+Estimates of varying coefficients have been saved in the following file.
+    Listwise output file: D:\UNAIR\SEMESTER 4\ADS\mgwr_listwise.csv
+
+Summary statistics for varying (Local) coefficients 
+Variable                      Mean             STD 
+-------------------- --------------- ---------------
+Mikro                      21.409178        0.639151
+Datang                      6.625716        0.197805
+
+Variable                       Min              Max           Range
+-------------------- --------------- --------------- ---------------
+Mikro                      22.057941       22.057941        0.000000
+Datang                      6.826495        6.826495        0.000000
+
+Variable               Lwr Quartile          Median    Upr Quartile
+-------------------- --------------- --------------- ---------------
+Mikro                      22.057941       22.057941       22.057941
+Datang                      6.826495        6.826495        6.826495
+
+Variable             Interquartile R     Robust STD
+-------------------- --------------- ---------------
+Mikro                       0.000000        0.000000
+Datang                      0.000000        0.000000
+ (Note: Robust STD is given by (interquartile range / 1.349) )
+
+*****************************************************************************
+ GWR ANOVA Table
+*****************************************************************************
+Source                           SS          DF             MS           F
+----------------- ------------------- ---------- --------------- ----------
+Global Residuals  6874403241324220.000     31.000
+GWR Improvement   6874403241324220.000      0.188 36595686836977800.000
+GWR Residuals                    0.000     30.812           0.000          ?
+
+*****************************************************************************
+Program terminated at 6/21/2025 6:59:01 PM

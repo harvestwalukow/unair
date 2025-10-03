@@ -1,0 +1,51 @@
+---
+title: "Harvest Walukow - 164231104 - Praktikum M12"
+output: pdf_document
+date: "2025-05-23"
+---
+
+```{r}
+# H0: tidak ada perbedaan rata-rata bioaktivitas antara tiga tingkat dosis obat
+# H1: setidaknya ada satu tingkat dosis yang memberikan rata-rata bioaktivitas yang berbeda secara signifikan.
+
+dosis <- factor(rep(c("20g", "30g", "40g"), each = 4))
+bioaktivitas <- c(24, 28, 37, 30, 37, 44, 31, 35, 42, 47, 52, 38)
+
+anova1 <- aov(bioaktivitas ~ dosis)
+summary(anova1)
+
+```
+p-value < 0,05 maka tolak H0, terdapat perbedaan yang signifikan dalam rata-rata bioaktivitas obat pada ketiga tingkat dosis
+
+```{r}
+#H0: Rata-rata detak jantung peserta sama untuk semua jenis olahraga
+#H1: setidaknya satu jenis olahraga menyebabkan rata-rata detak jantung yang berbeda secara signifikan
+
+olahraga <- factor(rep(c("Lari", "Bersepeda", "Berenang", "Kontrol"), each = 4))
+detak <- c(158, 165, 168, 154, 140, 148, 142, 135, 126, 132, 129, 136, 102, 98, 103, 99)
+
+
+anova2 <- aov(detak ~ olahraga)
+summary(anova2)
+
+```
+p-value < 0,05 mak tolak H0, jenis olahraga memberikan pengaruh yang signifikan terhadap detak jantung peserta
+
+```{r}
+#H0: rata-rata yield antara keempat tingkat tekanan ekstrusi sama
+#H1: setidaknya satu tingkat tekanan ekstrusi memberikan rata-rata yield yang berbeda secara signifikan
+
+tekanan <- factor(rep(c(8500, 8700, 8900, 9100), times = 6))
+batch <- factor(rep(1:6, each = 4))
+yield <- c(90.3,92.5,85.5,82.5,89.2,89.5,90.8,89.5,98.2,90.6,89.6,85.6,
+           93.9,94.7,86.2,87.4,87.4,87.0,88.0,78.9,97.9,95.8,93.4,90.7)
+
+anova3 <- aov(yield ~ tekanan + batch)
+summary(anova3)
+
+```
+Tekanan:
+p-value < 0,05 maka tolak H0, tingkat tekanan ekstrusi berpengaruh secara signifikan terhadap yield
+
+Batch: 
+p-value untuk residuals < 0,05 maka tolak H0, variasi antar batch resin berkontribusi secara signifikan terhadap variasi yield

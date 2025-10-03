@@ -1,0 +1,92 @@
+---
+title: "Praktikum W2 Komstat"
+author: "Harvest Walukow"
+date: "2025-02-21"
+output: pdf_document
+---
+
+# Nomor 1
+
+```{r, warning=FALSE}
+library(dplyr)
+df <- read.csv("D:/UNAIR/SEMESTER 4/Komstat/Life Expectancy Data.csv")
+
+
+### a. Jumlah negara berdasarkan status pada tahun 2015
+
+```{r}
+jumlah_negara_status <- df %>%
+  filter(Year == 2015) %>%
+  group_by(Status) %>%
+  summarize(Jumlah_Negara = n())
+
+print(jumlah_negara_status)
+```
+
+### b. Mean, Median, Min, Max Angka Harapan Hidup (Life Expectancy) dari negara Indonesia berdasarkan tahun
+
+```{r}
+statistik_indonesia <- df %>%
+  filter(Country == "Indonesia") %>%
+  group_by(Year) %>%
+  summarize(
+    Mean_Life_Expectancy = mean(Life.expectancy, na.rm = TRUE),
+    Median_Life_Expectancy = median(Life.expectancy, na.rm = TRUE),
+    Min_Life_Expectancy = min(Life.expectancy, na.rm = TRUE),
+    Max_Life_Expectancy = max(Life.expectancy, na.rm = TRUE)
+  )
+
+print(statistik_indonesia)
+```
+
+### c. Mean, Median, Min, Max GDP berdasarkan status pada Tahun 2010
+
+```{r}
+
+df$GDP[is.na(df$GDP)] <- median(df$GDP, na.rm = TRUE)
+
+statistik_gdp_status <- df %>%
+  filter(Year == 2010) %>%
+  group_by(Status) %>%
+  summarize(
+    Mean_GDP = mean(GDP, na.rm = TRUE),
+    Median_GDP = median(GDP, na.rm = TRUE),
+    Min_GDP = min(GDP, na.rm = TRUE),
+    Max_GDP = max(GDP, na.rm = TRUE)
+  )
+
+print(statistik_gdp_status)
+```
+
+# Nomor 2
+
+```{r, warning=FALSE}
+library(readxl)
+df2 <- read_excel("D:/UNAIR/SEMESTER 4/Komstat/Dataset Komputasi Statistika M2.xlsx")
+df2[, 2:10] <- sapply(df2[, 2:10], as.numeric)
+```
+
+### 1. Buat vektor Y
+```{r}
+Y <- df2$Y
+print(Y)
+```
+```{r}
+is.vector(Y)
+```
+
+### 2. Buat matriks X
+```{r}
+X <- as.matrix(cbind(1, df2[, 2:10]))
+print(X)
+
+```
+```{r}
+class(X)
+```
+### 3. Beta
+```{r}
+beta <- solve(t(X) %*% X) %*% t(X) %*% Y
+print(beta)
+```
+

@@ -1,0 +1,123 @@
+
+library(sf)
+library(sp)
+library(dplyr)
+library(readr)
+library(GWmodel)
+library(ggplot2)
+
+data_eko <- read_csv("data_Lengkap.csv")
+peta_provinsi <- st_read("gadm41_IDN_shp/gadm41_IDN_1.shp", quiet = TRUE)
+
+data_eko$Provinsi_upper <- toupper(data_eko$Provinsi)
+peta_provinsi$NAME_1_upper <- toupper(peta_provinsi$NAME_1)
+
+peta_lengkap <- inner_join(peta_provinsi, data_eko, by = c("NAME_1_upper" = "Provinsi_upper"))
+
+peta_bersih <- peta_lengkap %>%
+  rename(
+    Wisatawan_2023 = `2023`,
+    Wisatawan_2019 = `2019`,
+    Wisatawan_2020_2021 = `2020-2021`,
+    Wisatawan_2022_2023 = `2022-2023`
+  ) %>%
+  filter(!is.na(Wisatawan_2023) & !is.na(Mikro) & !is.na(Kecil) & !is.na(Datang))
+
+data_sp <- as(peta_bersih, "Spatial")
+
+
+cat("--- TAHAP 1: Menjalankan OLS untuk Variabel Global (Berangkat) ---\n")
+model_global_ols <- lm(Wisatawan_2023 ~ Berangkat, data = data_sp@data)
+
+coef_datang_global <- coef(model_global_ols)["Berangkat"]
+cat("Koefisien Global untuk 'Berangkat' (dari OLS) adalah:", round(coef_datang_global, 4), "\n\n")
+
+data_sp$residual_global <- residuals(model_global_ols)
+
+formula_local_gwr <- residual_global ~ Kecil
+
+cat("--- TAHAP 2: Mencari Bandwidth untuk Model GWR Lokal ---\n")
+bw_local <- bw.gwr(formula = formula_local_gwr, data = data_sp,
+                   adaptive = TRUE, approach = "CV")
+cat("Bandwidth optimal untuk model lokal:", bw_local, "\n\n")
+
+model_local_gwr <- gwr.basic(formula = formula_local_gwr, data = data_sp,
+                             bw = bw_local, adaptive = TRUE, kernel = "gaussian")
+
+cat("--- Hasil Model GWR Lokal (pada Residual) ---\n")
+print(model_local_gwr)
+
+cat("\n=== PERHITUNGAN PERFORMA MODEL GABUNGAN (MGWR) ===\n")
+
+# Ambil prediksi dari tahap global (OLS)
+prediksi_global <- predict(model_global_ols)
+
+# Ambil prediksi dari tahap lokal (GWR pada residual)
+prediksi_lokal <- model_local_gwr$fitted.values
+
+# Gabungkan prediksi: prediksi_total = prediksi_global + prediksi_lokal_residual
+prediksi_gabungan <- prediksi_global + prediksi_lokal
+
+# Nilai aktual
+nilai_aktual <- data_sp$Wisatawan_2023
+
+# Hitung R-squared gabungan
+tss <- sum((nilai_aktual - mean(nilai_aktual))^2)  # Total Sum of Squares
+rss <- sum((nilai_aktual - prediksi_gabungan)^2)   # Residual Sum of Squares
+r_squared_gabungan <- 1 - (rss / tss)
+
+# Hitung Adjusted R-squared dengan effective degrees of freedom
+n <- length(nilai_aktual)
+effective_params <- 1 + model_local_gwr$GW.diagnostic$edf  # intercept + effective parameters
+adj_r_squared_gabungan <- 1 - ((1 - r_squared_gabungan) * (n - 1) / (n - effective_params))
+
+# Hitung AIC gabungan dengan effective parameters
+aic_gabungan <- n * log(rss/n) + 2 * effective_params
+
+# Hitung RMSE dan MAE
+rmse_gabungan <- sqrt(mean((nilai_aktual - prediksi_gabungan)^2))
+mae_gabungan <- mean(abs(nilai_aktual - prediksi_gabungan))
+
+cat("PERFORMA MODEL GABUNGAN (Global OLS + Local GWR):\n")
+cat("================================================\n")
+cat("R-squared Gabungan:", round(r_squared_gabungan, 6), "\n")
+cat("Adjusted R-squared Gabungan:", round(adj_r_squared_gabungan, 6), "\n")
+cat("AIC Gabungan:", round(aic_gabungan, 2), "\n")
+cat("RMSE:", round(rmse_gabungan, 2), "\n")
+cat("MAE:", round(mae_gabungan, 2), "\n")
+cat("Effective Parameters:", round(effective_params, 2), "\n\n")
+
+# Bandingkan dengan model individual
+cat("PERBANDINGAN DENGAN MODEL INDIVIDUAL:\n")
+cat("=====================================\n")
+
+# R-squared dari model global saja
+r_squared_global <- summary(model_global_ols)$r.squared
+adj_r_squared_global <- summary(model_global_ols)$adj.r.squared
+aic_global <- AIC(model_global_ols)
+
+cat("Model Global (OLS) saja:\n")
+cat("  R-squared:", round(r_squared_global, 6), "\n")
+cat("  Adjusted R-squared:", round(adj_r_squared_global, 6), "\n")
+cat("  AIC:", round(aic_global, 2), "\n\n")
+
+# R-squared dari model lokal (pada residual)
+cat("Model Lokal (GWR pada residual):\n")
+cat("  R-squared:", round(model_local_gwr$GW.diagnostic$gw.R2, 6), "\n")
+cat("  AICc:", round(model_local_gwr$GW.diagnostic$AICc, 2), "\n\n")
+
+cat("Model Gabungan (MGWR):\n")
+cat("  R-squared:", round(r_squared_gabungan, 6), "\n")
+cat("  Adjusted R-squared:", round(adj_r_squared_gabungan, 6), "\n")
+cat("  AIC:", round(aic_gabungan, 2), "\n\n")
+
+# Model equation summary
+cat("PERSAMAAN MODEL AKHIR:\n")
+cat("======================\n")
+cat("Wisatawan_2023 = ", round(coef(model_global_ols)[1], 0), " + ", 
+    round(coef(model_global_ols)[2], 3), " × Berangkat + β_Kecil(u,v) × Kecil\n")
+cat("Dimana β_Kecil(u,v) bervariasi spasial dari", 
+    round(min(model_local_gwr$SDF$Kecil), 3), "hingga", 
+    round(max(model_local_gwr$SDF$Kecil), 3), "\n")
+cat("Bandwidth lokal:", bw_local, "neighbors (adaptive)\n")
+

@@ -1,0 +1,86 @@
+---
+title: "Tugas M3"
+author: "Harvest Walukow"
+date: "2024-09-08"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dataset yang digunakan adalah data tentang semua pemain NBA dan performanya dari musim 2023/24.
+
+### Preparing data & library
+
+```{r}
+df <- read.csv("nba-player-data.csv")
+library(ggplot2)
+library(dplyr)
+```
+
+## Games Played vs Points Scored
+
+```{r}
+df$G <- as.numeric(df$G)
+df$PTS <- as.numeric(df$PTS)
+
+ggplot(df, aes(x = G, y = PTS)) +
+  geom_point(alpha = 0.5, color = "blue") +
+  geom_smooth(method = "lm", color = "red") +
+  labs(title = "Games Played vs Points Scored", x = "Games Played (G)", y = "Points Scored (PTS)") +
+  theme_minimal() +
+  theme(panel.grid.major = element_line(color = "grey", linetype = "dotted")) 
+```
+
+Dapat diamati pada plot di atas bahwa banyaknya game yang dimainkan oleh pemain berkorelasi positif dengan poin yang didapat.
+
+## Points Scored (PTS) by Position
+
+```{r}
+df$PTS <- as.numeric(df$PTS)
+df$G <- as.numeric(df$G)
+
+ggplot(df, aes(x = Pos, y = PTS, fill = Pos)) +
+  geom_boxplot() +
+  scale_fill_brewer(palette = "RdYlBu") + 
+  labs(title = "Points Scored (PTS) by Position", x = "Position", y = "Points Scored (PTS)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")
+```
+
+Secara keseluruhann, posisi PG-SG menjadi yang paling dominan dalam mencetak skor. Ada beberapa outlier di hampir semua posisi, menunjukkan pemain-pemain dengan performa scoring yang luar biasa. Beberapa posisi seperti PF-C dan PF-SF memiliki rentang yang sangat sempit, karena jumlah data (observasi) terbatas.
+
+## Points Scored by Position and Team
+
+```{r}
+df$PTS <- as.numeric(df$PTS)
+df$Pos <- as.factor(df$Pos) 
+
+filtered_df <- subset(df, Pos %in% c("PG", "SG", "SF", "PF", "C"))
+
+heatmap_data <- aggregate(PTS ~ Pos + Tm, data = filtered_df, FUN = mean, na.rm = TRUE)
+
+ggplot(heatmap_data, aes(x = Pos, y = Tm, fill = PTS)) +
+  geom_tile() + 
+  scale_fill_gradient(low = "white", high = "red") +  # Color gradient
+  labs(title = "Heatmap of Average Points Scored by Position and Team",
+       x = "Position", y = "Team", fill = "Average Points (PTS)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) df$PTS <- as.numeric(df$PTS)
+df$Pos <- as.factor(df$Pos) 
+
+filtered_df <- subset(df, Pos %in% c("PG", "SG", "SF", "PF", "C"))
+
+heatmap_data <- aggregate(PTS ~ Pos + Tm, data = filtered_df, FUN = mean, na.rm = TRUE)
+
+ggplot(heatmap_data, aes(x = Pos, y = Tm, fill = PTS)) +
+  geom_tile() + 
+  scale_fill_gradient(low = "white", high = "red") +  # Color gradient
+  labs(title = "Heatmap of Average Points Scored by Position and Team",
+       x = "Position", y = "Team", fill = "Average Points (PTS)") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+```
+
+Posisi G (Guard) cenderung memiliki warna lebih gelap di banyak tim, menunjukkan peran scoring yang lebih besar. Beberapa tim memiliki sel merah gelap di posisi tertentu, yang paling menonjol adalah GSW, SF mereka sangat dominan. Tidak ada pola tertentu, menunjukkan keragaman dalam gaya permainan dan komposisi tim.

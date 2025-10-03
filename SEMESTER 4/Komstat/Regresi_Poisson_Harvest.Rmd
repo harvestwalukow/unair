@@ -1,0 +1,60 @@
+---
+title: "Perbaikan UAS"
+author: "Harvest Ecclesiano Christ Walukow"
+output: pdf_document
+---
+
+
+## a.
+
+```{r}
+library(maxLik)
+
+poisson_loglik <- function(beta, y, X) {
+  mu <- exp(X%*%beta) # hitung μ 
+  loglik <- sum(y * log(mu) - mu - lfactorial(y)) # hitung log ln
+  return(loglik) # return positif untuk maksimisasi
+}
+
+poisson_gradient <- function(beta, y, X) {
+  mu <- exp(X%*%beta) # hitung μ 
+  gradient_matrix <- X * as.vector(y - mu) # gradient untuk setiap observasi (matrix)
+  return(gradient_matrix) # return matriks gradient (setiap baris = observasi)
+}
+
+estimate_poisson <- function(y, X) {
+  start_values <- rep(0, ncol(X)) # nilai awal parameter
+  
+  result <- maxLik(logLik = poisson_loglik, grad = poisson_gradient, start = start_values, method = "BHHH", y = y, X = X) # maksimisasi likelihood dengan maxLik
+  
+  coef_result <- summary(result)$estimate # ambil koefisien dari hasil
+  estimates <- coef(result) # koefisien
+  std_errors <- sqrt(diag(vcov(result))) # standard errors
+  z_values <- estimates / std_errors # z statistics
+  p_values <- 2 * (1 - pnorm(abs(z_values))) # p-values
+  
+  return(data.frame( # return hasil dalam dataframe
+    Estimate = estimates,
+    Std_Error = std_errors,
+    z_value = z_values,
+    p_value = p_values,
+    row.names = c("Intercept", paste0("x", 1:(ncol(X)-1)))
+  ))
+}
+```
+
+## b.
+
+```{r}
+data_up <- read.csv("Data UP.csv")               # baca data
+data_up <- data_up[complete.cases(data_up), ]   # hapus missing values
+
+y <- data_up$y                                   # variabel respons
+X <- as.matrix(cbind(1, data_up[, 2:5]))        # matriks desain dengan intercept
+
+hasil <- estimate_poisson(y, X)
+print(hasil)
+
+# koefisien
+cat(max(abs(hasil$Estimate)))
+```

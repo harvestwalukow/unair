@@ -1,0 +1,63 @@
+---
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+# STATISTIKA NONPARAMETRIK
+
+## PRAKTIKUM TM-4
+
+1.  ***SIGN TEST***
+
+```{r}
+#SOAL 1
+Oks= c(1.5, 2.2, 0.9, 1.3, 2.0,1.6, 1.8, 1.5, 2.0, 1.2, 1.7)
+
+library(BSDA)
+SIGN.test(Oks, md = 1.8, alternative = "two.sided")
+```
+
+```{r}
+#SOAL 2
+library(BSDA)
+
+ban_jenis_1 = c(4.2, 4.7, 6.6, 7, 6.7, 4.5, 5.7, 6, 7.4, 4.9, 6.1, 5.2, 5.7, 6.9, 6.8, 4.9)
+ban_jenis_2 = c(4.1, 4.9, 6.2, 6.9, 6.8, 4.4, 5.7, 5.8, 6.9, 4.9, 6, 4.9, 5.3, 6.5, 7.1, 4.8)
+
+hasil_st_ban = SIGN.test(ban_jenis_1, ban_jenis_2, alternative=  "less")
+
+print(hasil_st_ban)
+```
+
+2.  ***WILCOXON TEST***
+
+```{r}
+wilcox.test(Oks, mu = 1.8, alternative = "two.sided")
+```
+
+3.  ***BINOMIAL TEST***
+
+```{r}
+binom.test(x=8, n=20, p=1/2)
+```
+
+4.  ***CHI-SQUARE***
+
+```{r}
+zodiac_signs <- c("Aries", "Taurus", "Libra", "Gemini", "Cancer", "Leo", "Virgo", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces")
+respondent_counts<- c(29, 24, 22, 19, 21, 18, 19, 20, 23, 18, 20, 23)
+
+n <- sum(respondent_counts)
+expected_counts <- rep(n/length(respondent_counts), length(respondent_counts)) / n 
+
+chisq_result <- chisq.test(respondent_counts, p = expected_counts)
+chisq_result
+```
+
+5.  ***KOLMOGOROV SMIRNOV***
+
+```{r}
+
+```

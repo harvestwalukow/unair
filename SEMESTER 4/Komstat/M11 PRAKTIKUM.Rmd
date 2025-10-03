@@ -1,0 +1,74 @@
+---
+title: "Praktikum Komstat W11"
+author: "Harvest Walukow"
+date: "2025-05-16"
+output: pdf_document
+---
+
+```{r}
+library(stats4)
+library(MASS)
+```
+
+## Binomial
+
+```{r}
+set.seed(123)
+
+xbinom <- rbinom(n = 300, size = 10, prob = 0.3)
+n_binom <- 10
+
+lbinom = function(p) {
+  n = length(xbinom)
+  x = xbinom
+  llik = -sum(dbinom(x, size = n_binom, prob = p, log = TRUE))
+  return(llik)
+}
+
+estbinom = mle(minuslogl = lbinom, start = list(p = 0.5), method = "L-BFGS-B",
+               lower = 0.0001, upper = 0.9999)
+summary(estbinom)
+```
+Nilai estimasi p sangat dekat dengan parameter prob = 0.3 -> proses estimasi berjalan dengan baik.
+
+## Gamma
+
+```{r}
+set.seed(123)
+
+xgamma <- rgamma(n = 300, shape = 2, rate = 1.5)
+
+lgamma = function(alpha, lambda) {
+  x = xgamma
+  n = length(x)
+  llik = -sum(dgamma(x, shape = alpha, rate = lambda, log = TRUE))
+  return(llik)
+}
+
+estgamma = mle(minuslogl = lgamma, start = list(alpha = 1, lambda = 1),
+               method = "L-BFGS-B", lower = c(0.0001, 0.0001))
+summary(estgamma)
+```
+Nilai estimasi sangat dekat dengan parameter yang digunakan (shape = 2, rate = 1.5) -> proses estimasi berjalan dengan baik.
+
+## Pareto
+
+```{r}
+set.seed(123)
+
+alpha_asli <- 2
+xm <- 1
+xpareto <- (runif(300) ^ (-1/alpha_asli)) * xm
+
+lpareto = function(alpha) {
+  x = xpareto
+  xm = min(x)
+  n = length(x)
+  llik = -sum(log(alpha * xm^alpha / x^(alpha + 1)))
+  return(llik)
+}
+
+estpareto = mle(minuslogl = lpareto, start = list(alpha = 1), method = "L-BFGS-B", lower = 0.0001)
+summary(estpareto)
+```
+Nilai estimasi alpha sangat dekat dengan parameter alpha = 2 -> proses estimasi berjalan dengan baik.

@@ -1,0 +1,73 @@
+---
+title: "w8"
+author: "Harvest Walukow"
+date: "2025-04-25"
+output: pdf_document
+---
+
+```{r}
+data1 <- c(3, 7, 2, 8, 10)
+
+bootstrap_mean <- function(data, n_bootstrap) {
+  means <- numeric(n_bootstrap)
+  for(i in 1:n_bootstrap) {
+    sample_data <- sample(data, size = length(data), replace = TRUE)
+    means[i] <- mean(sample_data)
+  }
+  return(means)
+}
+
+set.seed(100)
+hasil1 <- bootstrap_mean(data1, 35)
+
+hist(hasil1, main = "Histogram",
+     xlab = "Mean Values", col = "lightblue", breaks = 10)
+
+qqnorm(hasil1)
+qqline(hasil1)
+
+print(mean(results1))
+
+```
+```{r}
+set.seed(100)
+data2 <- runif(10, min = 2, max = 6)  # a=2, b=6
+
+hasil2 <- bootstrap_mean(data2, 200)
+
+hist(hasil2, main = "Histogram",
+     xlab = "Mean Values", col = "lightgreen", breaks = 15)
+
+qqnorm(hasil2)
+qqline(hasil2)
+
+print(mean(results2))
+```
+
+```{r}
+library(boot)
+
+data3 <- c(3.5, 4.0, 2.8, 5.1, 3.7, 4.4, 3.2, 4.9, 3.0, 3.8, 4.1, 2.9)
+
+mean_stat <- function(data, indices) {
+  return(mean(data[indices]))
+}
+
+set.seed(100)
+boot_result <- boot(data = data3, statistic = mean_stat, R = 900)
+
+boot_ci <- boot.ci(boot_result, type = c("perc"))
+
+print(boot_ci)
+
+hist(boot_result$t, 
+     main = "Histogram of Bootstrap Means (n=900)",
+     xlab = "Mean Values", 
+     col = "lightpink",
+     breaks = 30)
+
+abline(v = boot_ci$percent[4:5], col = "red", lwd = 2, lty = 2) 
+abline(v = mean(boot_result$t), col = "blue", lwd = 2)
+
+```
+

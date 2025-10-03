@@ -1,0 +1,39 @@
+---
+title: "Praktikum W1 - Komstat"
+author: "Harvest Walukow"
+date: "2025-02-14"
+output: pdf_document
+---
+
+# No 1
+
+```{r}
+df <- data.frame(
+  No = rep(1:8),
+  Nama = c("Denora", "Rena", "Sam", "John", "Kira", "Zena", "William", "Ahlan"),
+  Jenis_Kelamin = rep(c("Perempuan", "Laki-Laki"), each = 2),
+  Gaji = seq(40000, 5000, -5000),
+  Usia = rep(c(25, 26), c(4, 4))
+)
+
+print(df)
+
+
+```
+
+# No 2
+
+```{r}
+jenis_bilangan <- function(n) {
+  for (i in 1:n) {
+    if (i %% 2 == 0) {
+      print(paste(i, "adalah bilangan genap"))
+    } else {
+      print(paste(i, "adalah bilangan ganjil"))
+    }
+  }
+}
+
+jenis_bilangan(20)
+
+```

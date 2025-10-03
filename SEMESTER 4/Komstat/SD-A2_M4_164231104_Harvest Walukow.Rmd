@@ -1,0 +1,51 @@
+---
+title: "Praktikum Komstat W4"
+author: "Harvest Walukow"
+date: "2025-03-07"
+output: pdf_document
+---
+# Nomor 1
+```{r}
+# (a) Generate data dgn metode transformasi invers
+n <- 1000
+set.seed(10)
+u <- runif(n, min = 0, max = 1)
+x <- u^(1/3) # inverse CDF
+
+# (b) Visualisasi histogram hasil bangkitan
+hist(x, breaks = 30, probability = TRUE, col = 'lightblue', main = "Histogram", xlab = "x")
+curve(3*x^2, col = "red", lwd = 2, add = TRUE, xlim = c(0,1)) 
+
+```
+# Nomor 2
+```{r}
+n <- 1000
+alpha <- 1
+beta <- 1
+
+set.seed(10)
+
+# (a) Generate data dari distribusi Weibull dgn metode transformasi invers
+u <- runif(n)
+x_weibull_inv <- beta * (-log(1 - u))^(1/alpha)
+
+# (b) Generate data dari distribusi Weibull dgn fungsi bawaan R
+set.seed(10)
+x_weibull_r <- rweibull(n, shape = alpha, scale = beta)
+
+# (c) Visualisasi
+par(mfrow = c(1, 2))  
+hist(x_weibull_inv, breaks = 30, 
+     main = "Weibull dengan Inverse Transform", 
+     xlab = "x", col = "lightgreen")
+
+hist(x_weibull_r, breaks = 30, 
+     main = "Weibull dengan rweibull", 
+     xlab = "x", col = "lightcoral")
+
+par(mfrow = c(1, 1))
+
+```
+- Kedua histogram memiliki bentuk yang mirip.
+- Metode transformasi invers dapat digunakan untuk menghasilkan distribusi Weibull dengan hasil yang konsisten dengan fungsi bawaan R.
+

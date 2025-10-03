@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Instrument Serif";
+    src: local("Instrument Serif");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Geist";
+    src: local("Geist"), local("Geist Sans");
+    font-weight: 400;
+}
+
+:root {
+    --fg: #0a0a0a;
+    --muted: #666;
+    --bg: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: Geist, system-ui, -apple-system, Segoe UI, Roboto, Arial,
+        sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+/* Top navbar */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.nav a {
+    color: var(--fg);
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.nav a:hover {
+    opacity: 1;
+}
+.nav-right {
+    display: flex;
+    gap: 24px;
+}
+
+/* Hero */
+.hero {
+    margin-top: 48px;
+}
+.hero h1 {
+    font-family: Instrument, Georgia, serif;
+    font-size: 44px;
+    line-height: 1.15;
+    margin: 0 0 12px;
+    letter-spacing: -0.02em;
+}
+.hero .subline {
+    font-size: 18px;
+    color: var(--fg);
+    margin-top: 12px;
+}
+
+/* Sections */
+.section {
+    margin-top: 56px;
+}
+.muted {
+    color: var(--muted);
+}
+
+/* Footer spacing */
+.footer {
+    height: 40px;
+}
+
+/* Simple grid for lists */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+}
+.card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 16px;
+    background: #fff;
+}

@@ -1,0 +1,220 @@
+# TEKNIK PENGAMBILAN SAMPEL
+
+## Simple Random Sampling
+
+### ---4.14---
+```{r}
+n1=30
+N1=300
+sigma_yi_1=25
+
+p1=sigma_yi_1/n1
+q1=1-p1
+B1=2*sqrt((1-n1/N1)*(p1*q1/(n1-1)))
+
+p1
+B1
+```
+
+### ---4.19---
+```{r}
+cavities=c(0,4,2,3,2,0,3,4,1,1)
+n2=length(cavities)
+N2=1000
+sigma_yi_2=sum(cavities)
+
+miu2=sigma_yi_2/n2
+sigma2_2=var(cavities)
+B2=2*sqrt((1-n2/N2)*sigma2_2/n2)
+
+miu2
+B2
+```
+
+### ---4.25---
+```{r}
+N3=621
+n3=60
+sigma_yi_3=11
+#------------------------------
+p3=sigma_yi_3/n3
+q3=1-p3
+B3=2*sqrt((1-n3/N3)*(p3*q3/(n3-1)))
+#------------------------------
+p3
+B3
+```
+
+### ---4.26---
+```{r}
+B4=0.08
+p4=0.2
+N4=N3
+#------------------------------
+q4=1-p4
+D4=B4^2/4
+n4=(N4*p4*q4)/((N4-1)*D4+p4*q4)
+#------------------------------
+n4
+n4_int=ceiling(n4)
+n4_int
+```
+## Systematic Sampling
+
+### ---7.4---
+```{r}
+n1=200
+N1=2000
+sigma_yi_1=132
+
+p1=sigma_yi_1/n1
+q1=1-p1
+B1=2*sqrt((1-n1/N1)*(p1*q1/(n1-1)))
+
+p1
+B1
+```
+### ---7.5---
+```{r}
+N2=N1
+sigma_yi_2=sigma_yi_1
+B2=0.01
+p2=p1
+#------------------------------
+q2=1-p2
+D2=B2^2/4
+n2=(N2*p2*q2)/((N2-1)*D2+p2*q2)
+#------------------------------
+n2
+n2_int=ceiling(n2)
+n2_int
+```
+### ---7.6---
+```{r}
+# Create the vector
+Amount_of_fill <- c(12.00, 11.91, 11.87, 12.05, 11.75, 11.85, 11.97, 11.98, 12.01, 11.87, 11.93,11.98, 12.01, 12.03, 11.98, 11.91, 11.95, 11.87, 12.03, 11.98,11.87, 11.93, 11.97, 12.05, 12.01, 12.00, 11.90, 11.94, 11.93, 12.02, 11.80, 11.83, 11.88, 11.89, 12.05, 12.04)
+
+yi_3 = data.frame(Amount_of_fill)
+N3=1800
+n3=36
+sigma_yi_3=sum(yi_3)
+#------------------------------
+miu3=sigma_yi_3/n3
+var_3=var(yi_3)
+B3=2*sqrt((1-n3/N3)*var_3/n3)
+#------------------------------
+miu3
+B3
+```
+## Stratified Sampling
+
+### ---5.1---
+```{r}
+N=c(65, 42, 93, 25)
+N_Tot = sum(N)
+n = c (14, 9, 21,6)
+delinquent = c(4, 2, 8, 1) 
+
+p=vector(,4)
+Np =vector (,4)
+sum_Np = 0
+
+for ( i in 1 : 4){
+  p[i]=delinquent[i]/n[i]
+  Np [i]=N[i]*p[i]
+  sum_Np=sum_Np+Np[i]
+  }
+p_st=(1/N_Tot)*sum_Np 
+
+p
+sum_Np
+p_st
+
+sum_pst = 0
+pst=vector (,4)
+
+for (i in 1:4){
+  pst[i]=N[i]^2*(1-n[i]/N[i])*((p[i]*(1-p[i]))/(n[i]-1))
+  sum_pst=sum_pst+pst[i]
+  }
+
+V_pst=(1/N_Tot^2)*sum_pst
+B=2*sqrt(V_pst)
+B
+```
+
+### ---5.10---
+```{r}
+stratum1=c(97,42,25,105,27,45,53,67,125,92,86,43,59,21)
+M1=86
+m1=14
+var1=var(stratum1)
+stratum2=c(125,67,256,310,220,142,155,96,47,236,352,190)
+M2=72
+m2=12
+var2=var(stratum2)
+stratum3=c(142,310,495,320,196,256,440,510,396)
+M3=52
+m3=9
+var3=var(stratum3)
+stratum4=c(167,220,780,655,540)
+M4=30
+m4=5
+var4=var(stratum4)
+
+tau=M1*sum(stratum1)/m1+M2*sum(stratum2)/m2+M3*sum(stratum3)/m3+M4*sum(stratum4)/m4
+V_Nybarst=M1^2*(1-m1/M1)*(var1/m1)+M2^2*(1-m2/M2)*(var2/m2)+M3^2*(1-m3/M3)*(var3/m3)+M4^2*(1-m4/M4)*(var4/m4)
+V_Nybarst
+B_=2*sqrt(V_Nybarst)
+tau
+B_
+```
+## Cluster Sampling
+
+### ---8.2---
+```{r}
+m=c(3,7,11,9,2,12,14,3,5,9,8,6,3,2,1,4,12,6,5,8)
+y=c(50,110,230,140,60,280,240,45,60,230,140,130,70,50,10,60,280,150,110,120)
+n=20
+N=96
+
+sum_yi=sum(y)
+sum_mi=sum(m)
+y_bar=sum_yi/sum_mi
+y_bar
+
+mbar=mean(m)
+yyi2=vector(,n)
+sum_yyi2=0
+for (i in 1:n){
+  yyi2[i]=(y[i]-y_bar*m[i])^2
+  sum_yyi2=sum_yyi2+yyi2[i]
+}
+sr2=1/(n-1)*sum_yyi2
+V_ybar=(1-n/N)*(sr2/(n*mbar^2))
+B=2*sqrt(V_ybar)
+B
+```
+
+### ---8.3---
+```{r}
+M=N*mbar
+tau=M*y_bar
+tau
+#------------
+y_bart=mean(y)
+var_t=var(y)
+V_Nybart=N^2*(1-n/N)*var_t/n
+B_=2*sqrt(V_Nybart)
+B_
+```
+### ---8.14---
+```{r}
+#dont have the data M6-Exercise 8_14.txt bruh
+```
+
+### ---8.15---
+```{r}
+#same issue with the previous one hehe, check ppt
+```
+
