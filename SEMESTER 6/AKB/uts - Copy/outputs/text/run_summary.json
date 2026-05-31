@@ -1,0 +1,26 @@
+{
+  "sample_size": 24964,
+  "sample_path": "D:\\UNAIR\\SEMESTER 6\\AKB\\uts\\outputs\\beauty_personal_care_sample.csv",
+  "dataset_url": "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023",
+  "primary_kpi_average_rating": 4.2,
+  "low_rating_pct": 11.22,
+  "low_rating_helpful_vote_average": 1.5,
+  "guardrail_verified_purchase_share_pct": 59.66,
+  "top_3_themes": [
+    "Product does not work as expected",
+    "Packaging, leakage, or damaged items",
+    "Skin irritation or side effects"
+  ],
+  "model_metrics": {
+    "accuracy": 0.9353,
+    "precision_positive": 0.9869,
+    "recall_positive": 0.9386,
+    "f1_positive": 0.9621,
+    "roc_auc": 0.9781,
+    "test_size": 4485,
+    "negative_reviews_in_test": 560,
+    "positive_reviews_in_test": 3925,
+    "false_negative_bad_review": 49,
+    "false_positive_good_review": 241
+  }
+}

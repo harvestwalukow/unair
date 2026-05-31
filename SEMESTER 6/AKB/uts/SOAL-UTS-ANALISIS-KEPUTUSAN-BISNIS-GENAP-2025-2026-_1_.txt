@@ -1,0 +1,95 @@
+UNIVERSITAS AIRLANGGA 
+FAKULTAS TEKNOLOGI MAJU DAN MULTIDISIPLIN 
+==============================
+UJIAN TENGAH SEMESTER (UTS) GENAP 2025/2026
+Mata kuliah	: Analisis Keputusan Bisnis
+Dep / Prog. Studi : S1 Teknologi Sains Data
+Hari/Tanggal	: Rabu, 22 April 2026 
+Waktu	: 15.15 WIB
+Dosen Penguji	: Tim
+Sifat ujian	: Take Home
+
+I. URAIAN TUGAS
+      Menyusun laporan analisis data dan rekomendasi keputusan bisnis berbasis review pelanggan pada kategori Beauty and Personal Care dengan menggunakan dataset Amazon Reviews 2023 dari Hugging Face. Link dataset: 
+       https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023
+https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/tree/main/raw/review_categories?
+II. FORMAT PENULISAN 
+COVER DEPAN
+Ujian Tengah Semester 
+Analisis Review Pelanggan untuk Mendukung Keputusan Bisnis pada Kategori Beauty and Personal Care
+[Lambang Universitas Airlangga]
+[Nama Mahasiswa]
+[NIM]
+[Mata Kuliah]
+[Tahun Akademik]
+DAFTAR ISI
+Cantumkan seluruh bagian dan sub-bagian laporan secara sistematis.
+PENDAHULUAN
+     1. Latar belakang permasalahan
+     2. Tujuan analisis
+ISI URAIAN
+A. Penetapan Key Performance Indicator (KPI)
+1. KPI Utama: Pilih dan uraikan satu indikator utama untuk menilai kesehatan kategori produk. Contoh: rata-rata rating,  persentase review buruk,  proporsi produk dengan rating rendah.
+2. KPI Turunan: Pilih dan uraikan dua indikator turunan yang mendukung penjelasan KPI utama. Contoh: rata-rata rating per bulan,  persentase review 1-2 bintang,  jumlah review per produk,  proporsi review negatif pada kelompok harga tertentu. 
+3. Guardrail KPI: Pilih dan uraikan satu indikator guardrail sebagai batasan rekomendasi. Contoh: jumlah review minimum harus cukup representatif,  persentase review buruk tidak boleh meningkat,  helpful votes tidak turun ekstrem.
+
+B. Analisis Voice of Customer dari Teks Review
+         1. Pengambilan dan preprocessing data review text dari kategori Beauty_and_Personal_Care
+         2. Identifikasi minimal 3 tema keluhan utama
+         3. Perbandingan antara review rating tinggi vs rendah, atau harga tinggi vs rendah
+         4. Analisis pola dan isu utama yang dirasakan pelanggan contoh : 
+      * Keluhan apa yang paling sering muncul? 
+      * Apakah review buruk menunjukkan pola tema tertentu? 
+      * Apa masalah utama yang dirasakan pelanggan? 
+C. Translasi Insight ke Bahasa Bisnis
+Sajikan hasil analisis data dan teks dalam bentuk tabel dengan 3 kolom:
+         1. Temuan Data
+         2. Makna Bisnis
+         3. Implikasi Keputusan
+Minimal berisi 3 insight utama
+D. Predictive Modeling Sederhana
+  1. Pembangunan model klasifikasi sederhana (Logistic Regression atau Naive Bayes)
+         2. Pemilihan fitur sederhana (panjang review, teks review, helpful votes, dll.)
+         3. Evaluasi hasil model dan manfaatnya bagi tim bisnis
+4. Analisis risiko bisnis bila terdapat mis-klasifikasi review buruk sebagai review baik
+Pertanyaan yang harus dijawab:
+* Apakah model cukup membantu membedakan review baik dan review buruk? 
+* Mengapa model ini berguna untuk tim bisnis? 
+* Apa risiko bisnis jika review buruk diprediksi sebagai review baik? 
+
+KESIMPULAN
+         1. Ringkasan hasil analisis dan temuan utama
+         2. Rekomendasi keputusan bisnis berdasarkan hasil analisis dan model prediktif
+
+DAFTAR PUSTAKA
+Cantumkan referensi yang digunakan, baik dari buku, jurnal, website resmi dataset, maupun artikel terkait lainnya.
+LAMPIRAN / APPENDIX
+1. Grafik sederhana, tabel KPI, ringkasan tema review, dan hasil evaluasi model
+2. Notebook/Script (berisi data loading, preprocessing, analisis, dan pemodelan)
+        3. Bukti-bukti pendukung lainnya (maksimal 3 halaman)
+
+III. OUTPUT YANG WAJIB DIKUMPULKAN
+1. Decision Memo
+ 			Panjang halaman maksimal 1-2 halaman.
+          		Wajib memuat:
+* Kategori produk: Beauty_and_Personal_Care, 
+* KPI utama, dua KPI turunan, dan satu guardrail, 
+* Temuan utama dari review text, 
+* Hasil singkat model prediksi, 
+* Rekomendasi keputusan bisnis. 
+         2. Appendix Evidence
+a. Maksimal 3 halaman atau 3 slide.
+b. Minimal memuat:  grafik sederhana,  tabel KPI,  ringkasan tema review,  hasil evaluasi model. 
+c.  Notebook / Script, berisi: data loading,  preprocessing,  dan analisis review,  modeling sederhana. 
+
+IV. FORMAT PENULISAN
+1. Menggunakan font Times New Roman 12, spasi 1,5, dan margin kertas A4
+2. Judul bab dan subbab ditulis tegas serta sistematis
+3. Tabel, grafik, dan gambar diberi keterangan yang jelas
+4. Laporan wajib diunggah dalam bentuk softcopy pada platform E-Learning sesuai deadline
+5. Sertakan referensi dari sumber yang relevan dan dapat dipertanggungjawabkan
+6. Setiap bagian laporan ditulis dengan runtut, objektif, dan akademis
+7. Selamat mengerjakan dan semoga sukses!
+
+Catatan:
+* Fokus utama tugas ini adalah mengubah data review pelanggan menjadi rekomendasi keputusan bisnis yang sederhana, jelas, dan logis.

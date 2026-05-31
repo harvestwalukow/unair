@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Decision Canvas — Olist E-Commerce</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: #f0f2f5;
+    padding: 32px;
+    color: #1a1a2e;
+}
+
+.canvas-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 36px 40px 32px;
+}
+
+.canvas-title {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.canvas-title h1 {
+    font-size: 28pt;
+    font-weight: 800;
+    color: #1e3a5f;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.canvas-subtitle {
+    text-align: center;
+    font-size: 11pt;
+    color: #64748b;
+    margin-bottom: 28px;
+    font-weight: 400;
+}
+
+/* Grid layout */
+.grid-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.grid-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+/* Card styles */
+.card {
+    background: #f7f9fc;
+    border-radius: 10px;
+    padding: 18px 16px 16px;
+    border: 1px solid #e2e8f0;
+    position: relative;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 2px 12px rgba(30,58,95,0.1);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.card-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    background: #1e3a5f;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.card-label {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #1e3a5f;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+
+.card-body {
+    font-size: 9.5pt;
+    line-height: 1.55;
+    color: #334155;
+}
+
+.card-body strong {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.card-body .highlight {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.card-body .metric {
+    display: inline-block;
+    background: #1e3a5f;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 8.5pt;
+    font-weight: 600;
+    margin: 2px 0;
+}
+
+.card-body ul {
+    padding-left: 16px;
+    margin: 6px 0;
+}
+
+.card-body li {
+    margin-bottom: 4px;
+    font-size: 9pt;
+}
+
+.card-body .sub-title {
+    font-weight: 600;
+    color: #1e3a5f;
+    font-size: 9.5pt;
+    margin-bottom: 4px;
+}
+
+/* Separator line between content blocks */
+.card-body hr {
+    border: none;
+    border-top: 1px dashed #cbd5e1;
+    margin: 8px 0;
+}
+
+/* Footer */
+.canvas-footer {
+    background: #f1f5f9;
+    border-radius: 8px;
+    padding: 14px 20px;
+    text-align: center;
+    font-size: 9pt;
+    color: #475569;
+    line-height: 1.5;
+    border: 1px solid #e2e8f0;
+}
+
+.canvas-footer strong {
+    color: #1e3a5f;
+}
+
+/* Accent colors per card */
+.card-1 { border-top: 3px solid #2563eb; }
+.card-2 { border-top: 3px solid #2563eb; }
+.card-3 { border-top: 3px solid #2563eb; }
+.card-4 { border-top: 3px solid #2563eb; }
+.card-5 { border-top: 3px solid #64748b; }
+.card-5b { border-top: 3px solid #64748b; }
+.card-6 { border-top: 3px solid #dc2626; }
+.card-7 { border-top: 3px solid #16a34a; }
+
+@media print {
+    body { padding: 12px; background: #fff; }
+    .canvas-wrapper { box-shadow: none; padding: 20px; }
+    .card:hover { box-shadow: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="canvas-wrapper">
+
+    <div class="canvas-title">
+        <h1>Decision Canvas</h1>
+    </div>
+    <div class="canvas-subtitle">
+        Kerangka Business Framing — Olist E-Commerce Marketplace
+    </div>
+
+    <!-- ROW 1: Cards 1-4 -->
+    <div class="grid-top">
+
+        <!-- 1. DECISION STATEMENT -->
+        <div class="card card-1">
+            <div class="card-header">
+                <span class="card-number">1</span>
+                <span class="card-label">Decision Statement</span>
+            </div>
+            <div class="card-body">
+                <strong>Mengurangi keterlambatan pengiriman</strong> sebagai prioritas utama perbaikan operasional marketplace dalam 3 bulan ke depan.
+                <hr>
+                <ul>
+                    <li>8% order terlambat dari estimasi</li>
+                    <li>Late delivery menurunkan review score dari <span class="metric">4.29 → 2.57</span></li>
+                    <li>Late rate volatil (1.4% – 21.1%)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 2. DECISION OWNER & STAKEHOLDERS -->
+        <div class="card card-2">
+            <div class="card-header">
+                <span class="card-number">2</span>
+                <span class="card-label">Decision Owner &amp; Stakeholders</span>
+            </div>
+            <div class="card-body">
+                <div class="sub-title">Pemilik Keputusan:</div>
+                VP of Operations / Head of Logistics
+                <hr>
+                <div class="sub-title">Stakeholder Internal:</div>
+                <ul>
+                    <li>Tim Logistik & Fulfillment</li>
+                    <li>Tim Customer Experience</li>
+                    <li>Tim Data & Analytics</li>
+                </ul>
+                <div class="sub-title">Stakeholder Eksternal:</div>
+                <ul>
+                    <li>Mitra logistik (carrier)</li>
+                    <li>Seller marketplace</li>
+                    <li>Pelanggan</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 3. TUJUAN & KPI -->
+        <div class="card card-3">
+            <div class="card-header">
+                <span class="card-number">3</span>
+                <span class="card-label">Tujuan &amp; KPI</span>
+            </div>
+            <div class="card-body">
+                <div class="sub-title">Tujuan:</div>
+                Meningkatkan ketepatan waktu pengiriman untuk memperbaiki kepuasan pelanggan dan pertumbuhan transaksi.
+                <hr>
+                <div class="sub-title">KPI Utama:</div>
+                <span class="metric">On-time Delivery Rate</span>
+                <br>Saat ini: <strong>92%</strong> → Target: <strong>≥ 97%</strong>
+                <hr>
+                <div class="sub-title">KPI Pendukung:</div>
+                <ul>
+                    <li>Avg review score: 4.14 → ≥ 4.3</li>
+                    <li>Bad review rate: 14.2% → ≤ 10%</li>
+                    <li>Avg delivery duration: 12.5 hari → ≤ 10 hari</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 4. ALTERNATIF TINDAKAN -->
+        <div class="card card-4">
+            <div class="card-header">
+                <span class="card-number">4</span>
+                <span class="card-label">Alternatif Tindakan</span>
+            </div>
+            <div class="card-body">
+                <div class="sub-title">A. Perbaiki Logistik ✅</div>
+                Dashboard monitoring, renegosiasi SLA carrier, set estimasi realistis
+                <hr>
+                <div class="sub-title">B. Tindak Seller Buruk</div>
+                Batasi/hapus 111 seller (5.8%) yang hasilkan 50% bad review
+                <hr>
+                <div class="sub-title">C. Do Nothing</div>
+                Pertahankan status quo — risiko keluhan terus naik & volume transaksi turun
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ROW 2: Cards 5-7 -->
+    <div class="grid-bottom">
+
+        <!-- 5. BATASAN UTAMA -->
+        <div class="card card-5">
+            <div class="card-header">
+                <span class="card-number">5</span>
+                <span class="card-label">Batasan Utama</span>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li><strong>Anggaran:</strong> Budget untuk renegosiasi SLA dan monitoring tools</li>
+                    <li><strong>Waktu:</strong> Target 3 bulan untuk improvement terukur</li>
+                    <li><strong>Kontrol:</strong> Marketplace tidak mengoperasikan logistik sendiri (bergantung pada mitra)</li>
+                    <li><strong>Data:</strong> Dataset historis (2016-2018), pola saat ini mungkin berbeda</li>
+                    <li><strong>Regulasi:</strong> Kebijakan retur dan kompensasi keterlambatan</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 5b. BATASAN UTAMA (cont) — merged into one wider card -->
+        <div class="card card-5b">
+            <div class="card-header">
+                <span class="card-number">5</span>
+                <span class="card-label">Batasan Utama (lanjutan)</span>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li><strong>Infrastruktur:</strong> Jangkauan carrier terbatas di daerah remote Brasil</li>
+                    <li><strong>Kapasitas:</strong> Volume order meningkat — carrier mungkin overload di peak season</li>
+                    <li><strong>Staf:</strong> Butuh tim dedicated untuk monitoring delivery real-time</li>
+                    <li><strong>Seller:</strong> Waktu handover ke carrier bergantung pada kesiapan seller</li>
+                    <li><strong>Teknologi:</strong> Integrasi data tracking dari berbagai carrier</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 6. RISIKO & KETIDAKPASTIAN -->
+        <div class="card card-6">
+            <div class="card-header">
+                <span class="card-number">6</span>
+                <span class="card-label">Risiko &amp; Ketidakpastian</span>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li><strong>Framing salah:</strong> Jika masalah utama bukan delivery tapi seller quality — investasi logistik tidak efektif</li>
+                    <li><strong>Resistensi carrier:</strong> Mitra logistik menolak SLA lebih ketat atau menaikkan tarif</li>
+                    <li><strong>Estimasi terlalu longgar:</strong> Jika deadline diperpanjang, on-time rate naik tapi customer experience tetap buruk</li>
+                    <li><strong>Low repeat rate (3%):</strong> Perbaikan delivery mungkin tidak otomatis meningkatkan repeat purchase</li>
+                    <li><strong>Data historis:</strong> Pola 2018 mungkin tidak berlaku di kondisi saat ini</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 7. INFORMASI TAMBAHAN YANG DIBUTUHKAN -->
+        <div class="card card-7">
+            <div class="card-header">
+                <span class="card-number">7</span>
+                <span class="card-label">Informasi Tambahan yang Dibutuhkan</span>
+            </div>
+            <div class="card-body">
+                Data yang harus dikumpulkan di minggu pertama:
+                <ul>
+                    <li>Waktu tunggu carrier per rute (pickup → delivery)</li>
+                    <li>Jumlah keluhan terkait delivery vs kualitas produk per bulan</li>
+                    <li>SLA aktual mitra logistik saat ini</li>
+                    <li>Biaya kompensasi / refund akibat keterlambatan</li>
+                    <li>Data tracking real-time carrier (jika tersedia)</li>
+                    <li>Seller processing time (order → handover ke carrier)</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="canvas-footer">
+        Jawaban baik bukan dari "solusi ideal", tetapi dari <strong>konsistensi logika</strong> antara keputusan,
+        KPI, batasan, risiko, dan informasi tambahan. &nbsp;|&nbsp;
+        Data: Brazilian E-Commerce (Olist) &nbsp;|&nbsp; n = 97,916 orders
+    </div>
+
+</div>
+
+</body>
+</html>

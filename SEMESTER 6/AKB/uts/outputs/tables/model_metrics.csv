@@ -1,0 +1,2 @@
+accuracy,precision_positive,recall_positive,f1_positive,precision_negative,recall_negative,f1_negative,roc_auc,test_size,negative_reviews_in_test,positive_reviews_in_test,false_negative_bad_review,false_positive_good_review,true_negative_bad_review,true_positive_good_review
+0.9492,0.9538,0.9853,0.9693,0.9249,0.7907,0.8525,0.9859,4440252,824982,3615270,172675,52988,652307,3562282

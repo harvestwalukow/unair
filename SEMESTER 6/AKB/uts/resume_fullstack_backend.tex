@@ -1,0 +1,200 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingContinue}[4]{
+  \vspace{-1pt}\item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Harvest Walukow}} & Email: \href{mailto:}{harvest0805@gmail.com}\\
+  \href{https://harvestwalukow.vercel.app}{harvestwalukow.vercel.app} & Mobile:~~~+62-823-96333-595
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universitas Airlangga}{Surabaya, Indonesia}
+      {Data Science Technology}{Aug 2023 - Present}
+      {\scriptsize \textit{ \footnotesize{\newline{} \textbf{Courses:} Data Science Consulting, Machine Learning, Databases, Data Mining, Discrete Mathematics, Probability, Algorithms}}}
+        {\scriptsize \textit{ \footnotesize{\newline{} \textbf{Honours:} Mahaghora Scholarship (0.44\% acceptance rate) }}}
+    \resumeSubheading
+      {SMA Lokon St. Nikolaus}{Tomohon, Indonesia}
+      {Natural Science}{Jun 2020 - May 2023}
+      {\scriptsize \textit{ \footnotesize{\newline{} \textbf{Honours:} Class of 2023 Valedictorian, Olimpiade Sains Nasional 2022 (Mathematics, \#1 in North Sulawesi, top 100 in the nation)}}}
+
+    \resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~PHP, TypeScript, JavaScript, Python, SQL, Go, R, C}
+	\resumeSubItem{Frameworks}{~~~~Laravel, Node.js, Flask, Django, Scikit, PyTorch}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Docker, Git, PostgreSQL, MySQL, SQLite, AWS, REST APIs, cPanel, Figma}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Center for Environmental, Social, and Governance Studies}{Surabaya, Indonesia}
+    {Data Scientist Intern}{Dec 2025 -  Present}
+    \resumeItemListStart
+        \resumeItem{Object Recognition}
+          {Built a machine learning pipeline using object recognition to automatically identify and extract Sustainable Development Goals (SDGs) addressed by companies from their annual reports.}
+          \resumeItem{Data Scraping}
+          {Developed data scraping pipelines to extract, clean, and structure market data like the Saudi Exchange, public companies' stock prices across Southeast Asian markets, and ESG-related disclosures such as CDP Scores.}
+          \resumeItem{ESG Metric Extraction}
+          {Built an automated pipeline using OpenAI Batch API and vector databases to extract energy intensity components from unstructured sustainability and integrated reports.}
+          \resumeItem{HR Website}{Maintained and enhanced the internal HR platform, delivering feature improvements, database-backed workflows, and support for face recognition--based attendance integration.}
+      \resumeItemListEnd
+    \resumeSubheading
+		{Mahaghora Scholarship Organization}{Surabaya, Indonesia}
+		{IT Lead}{Feb 2025 -  Present}
+		\resumeItemListStart
+        \resumeItem{OKRs}
+          {Delivered 100\% of team's 2025 OKRs three months ahead of schedule}
+        \resumeItem{Products}
+{Spearheaded organization-wide digital transformation by architecting full-stack systems including the main website, internal tools, backend services, data platform, and AI integrations; publicly documented releases (\href{https://beasiswamahaghora.com/changelog}{click here}).}
+        \resumeItem{Dev Team}{Lead a 4-person development team in an Agile/Scrum environment, balancing strategic oversight with hands-on technical contributions across product and backend development.}
+        \resumeItem{Code Contribution}{Still contributed roughly 40\% of the overall codebase, with significant ownership of backend and platform work.}
+		\resumeItemListEnd
+    \vspace{-10pt}
+    \resumeSubheadingContinue
+		{}{}
+		{Project Manager}{Apr 2024 -  Jan 2025}
+		\resumeItemListStart
+        \resumeItem{Recruitment Campaign}
+          {Directed end-to-end planning and execution of nationwide scholarship recruitment campaign, managing all phases from strategy development to implementation.}
+        \resumeItem{Selection Process}
+          {Managed the full recruitment pipeline, from attracting 17,800+ user sign-ups to selecting and onboarding 6 scholars, the highest number of awardees in a single batch in the program's history.}
+        \resumeItem{Team Coordination}{Coordinated cross-functional team of 11 members spanning 6 universities, ensuring effective collaboration and timely project delivery.}
+		\resumeItemListEnd
+    \resumeSubheading{Handal Informasi Teknologi}{ South Tangerang, Indonesia}
+    {Data Scientist Intern}{Jan 2026 -  Feb 2026}
+    \resumeItemListStart
+        \resumeItem{Time Series Forecasting}
+          {Built a time series forecasting model to predict application performance.}
+          \resumeItem{Monitoring Dashboard}
+          {Developed a full-stack monitoring dashboard using Flask, React, and REST APIs for real-time visualization and application monitoring.}
+      \resumeItemListEnd
+    \resumeSubheading{Ngobrol Matematika}{Remote}
+    {Social Media Specialist (Part-Time)}{Aug 2024 - Aug 2025}
+    \resumeItemListStart
+        \resumeItem{Audience Growth}
+          {Grew Instagram following by 30\%.}
+          \resumeItem{Content Production}
+          {Produced 150+ educational slides for @ngobrolmatematika, managing both content writing and visual design while effectively communicating complex mathematical concepts to diverse audiences.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{BMHG AI}{An AI-powered full-stack chatbot application built with Retrieval Augmented Generation.}
+\vspace{-2pt}
+\resumeSubItem{Hasla AI}{A full-stack platform enabling non-technical employees to build software via chat. Work in progress.}
+\vspace{-2pt}
+\resumeSubItem{Web Projects}{Built and deployed web products including jptsquad.com, woka.world, beasiswamahaghora.com, tanya.beasiswamahaghora.com, and hr.esgi.ai.}
+\vspace{-2pt}
+\resumeSubItem{SENSE}{Deployed audio analysis and summarization services.}
+\vspace{-2pt}
+\resumeSubItem{DoggoGAN}{From-scratch Generative Adversarial Networks for dog image synthesis.}
+\vspace{-2pt}
+\resumeSubItem{Diffusion Maze Solver}{Conditional Denoising Diffusion Probabilistic Models for maze solving.}
+\vspace{-2pt}
+\resumeSubItem{Socio Economic Status Clustering}{PCA \& K-Means for socioeconomic clustering on real-world data.}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+%-----------Awards-----------------
+\section{Interests}
+\begin{description}[font=$\bullet$]
+\item {Competitions: Arkavidia ITB, Find IT UGM, FIT UKSW, Dataquest Unair.}
+\vspace{-5pt}
+\item {Design: UI/UX, Social Media, and Co-founder of Woka, a clothing brand.}
+\vspace{-5pt}
+\item {Sports: Basketball, Football, and Chess (1750 rated on Chess.com).}
+
+\end{description}
+\end{document}

@@ -1,0 +1,5 @@
+kpi_type,metric,value,interpretation
+Primary,Average rating,4.2,Overall health indicator for category sentiment.
+Supporting,Low-rating review percentage (1-2 stars),11.22,Signal for dissatisfaction concentration.
+Supporting,Average helpful votes on low-rating reviews,1.5,Shows whether negative reviews are salient to other shoppers.
+Guardrail,Verified purchase share (%),59.66,Keeps recommendations anchored to more credible purchase experiences.

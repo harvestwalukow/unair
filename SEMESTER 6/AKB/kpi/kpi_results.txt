@@ -1,0 +1,5 @@
+Avg Monthly Trips: 476,308
+Avg Member Share: 68.09%
+Peak Intensity: 2.56
+Top 10 Station Concentration: 6.63%
+Median Trip Duration: 9.75 min

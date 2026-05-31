@@ -1,0 +1,98 @@
+---
+title: "Untitled"
+output: pdf_document
+date: "2026-04-21"
+---
+
+# 2 Way
+```{r}
+HappyHeaven <- read.table(
+  "https://raw.githubusercontent.com/alanagresti/categorical-data/refs/heads/master/HappyHeaven.dat",
+  header = TRUE
+)
+print(HappyHeaven)
+```
+```{r}
+fit <- glm(count ~ happy + heaven, family=poisson, data=HappyHeaven)
+summary(fit) # independence loglinear model
+```
+```{r}
+fit2 <- glm(count ~ happy + heaven + happy:heaven, family=poisson, data=HappyHeaven)
+summary(fit2) # saturated loglinear model
+```
+
+# 3 Way
+```{r}
+# acm
+Drugs <- read.table("https://raw.githubusercontent.com/alanagresti/categorical-data/refs/heads/master/Substance.dat",header=TRUE)
+A <- Drugs$alcohol; C <- Drugs$cigarettes; M <- Drugs$marijuana
+fit <- glm(count ~ A + C + M + A:C + A:M + C:M + A:C:M, family=poisson, data=Drugs)
+summary(fit)
+
+```
+```{r}
+# (AC, AM, CM)
+fit2 <- glm(count ~ A + C + M + A:C + A:M + C:M, family=poisson, data=Drugs)
+summary(fit2)
+```
+```{r}
+# (AM, CM)
+fit3 <- glm(count ~ A + C + M + A:M + C:M, family=poisson, data=Drugs)
+summary(fit3)
+```
+```{r}
+# Model (A, C, M)
+fit4 <- glm(count ~ A + C + M, family=poisson, data=Drugs)
+summary(fit4)
+```
+```{r}
+# (AC, AM, CM) versus (AM, CM)
+fit4 <- glm(count ~ A + C + M, family=poisson, data=Drugs)
+summary(fit4)
+```
+```{r}
+res <- rstandard(fit2,type="pearson"); res2 <- rstandard(fit3,type="pearson")
+data.frame(A, C, M, Drugs$count, fitted(fit2), res, fitted(fit3), res2)
+```
+
+```{r}
+library(car)
+Anova(fit) #likelihood-ratio tests for pairwise conditional associations
+```
+# tabel fitted
+
+```{r}
+fit1 <- glm(count ~ A + C + M, family=poisson, data=Drugs)              # (A,C,M)
+fit2 <- glm(count ~ A + C + M + A:M + C:M, family=poisson, data=Drugs)  # (AM,CM)
+fit3 <- glm(count ~ A + C + M + A:C + A:M + C:M, data=Drugs, family=poisson) # (AC,AM,CM)
+fit4 <- glm(count ~ A + C + M + A:C + A:M + C:M + A:C:M, data=Drugs, family=poisson) # (ACM)
+```
+
+```{r}
+fitted(fit1)
+fitted(fit2)
+fitted(fit3)
+fitted(fit4)
+```
+```{r}
+result <- data.frame(
+  A = Drugs$alcohol,
+  C = Drugs$cigarettes,
+  M = Drugs$marijuana,
+  observed = Drugs$count,
+  `(A,C,M)` = fitted(fit1),
+  `(AM,CM)` = fitted(fit2),
+  `(AC,AM,CM)` = fitted(fit3),
+  `(ACM)` = fitted(fit4)
+)
+
+result
+```
+
+```{r}
+round(result, 2)
+```
+
+
+
+

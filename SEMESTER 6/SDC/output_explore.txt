@@ -1,0 +1,34 @@
+Starting analysis...
+Sheets found: ['Study Case', 'Dictionary', 'Raw Data']
+
+--- Sheet: Study Case ---
+Columns: ['Unnamed: 0', 'STUDY CASE']
+Shape: (32, 2)
+
+First 3 rows:
+  Unnamed: 0                                                          STUDY CASE
+0        NaN  COLLABORATION PT AXA INSURANCE INDONESIA AND UNIVERSITAS AIRLANGGA
+1        NaN                                                                 NaN
+2        NaN               *Noted. Data already modified for study case purpose.
+
+--- Sheet: Dictionary ---
+Columns: ['Unnamed: 0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3']
+Shape: (19, 4)
+
+First 3 rows:
+   Unnamed: 0         Unnamed: 1            Unnamed: 2                                                                                                 Unnamed: 3
+0         NaN        FIELD NAME      SHORT DESCRIPTION                                                                                                DEFINITIONS
+1         NaN  CLASS OF BUSINESS     Class of Business                                  Sub-category of risk within LOB (e.g., Engginering, Property, Moot, etc,)
+2         NaN            CHANNEL  Distribution Channel  The method or intermediary through which the policy is sold (e.g., Agent, Broker, Bancassurance, Direct).
+
+--- Sheet: Raw Data ---
+Columns: ['CLASS OF BUSINESS', 'CHANNEL', 'POLICY NO', 'DATE INCEPTION', 'DATE END', 'CURRENCY PREM', 'RATE OF CURRENCY', 'GWP', 'RWP', 'RWC', 'GWC', 'SUM INSURED', 'DATE CLAIM', 'CURRENCY CLAIM', 'GROSS ST', 'NET ST', 'GROSS OS', 'NET OS']
+Shape: (234265, 18)
+
+First 3 rows:
+  CLASS OF BUSINESS  CHANNEL            POLICY NO DATE INCEPTION   DATE END CURRENCY PREM  RATE OF CURRENCY        GWP       RWP          RWC         GWC   SUM INSURED DATE CLAIM CURRENCY CLAIM  GROSS ST  NET ST  GROSS OS  NET OS
+0             COB 1  Brokers  XX-00000000G0006884     2023-01-01 2023-12-31           CNY                 1  69776.265  9226.533  2402.173289  12296.0205  1.465000e+11 2023-01-01            IDR       0.0     0.0         0     0.0
+1             COB 1  Brokers  XX-00000000G0009866     2023-01-01 2023-12-31           CNY                 1  69776.265  9226.533  2402.173289  12296.0205  1.465000e+11 2023-01-01            IDR       0.0     0.0         0     0.0
+2             COB 1  Brokers  YY-2010109052300000     2023-01-01 2024-01-01           CNY                 1  69776.265  9226.533  2402.173289  12296.0205  1.465000e+11 2023-01-01            IDR       0.0     0.0         0     0.0
+
+Completed in 49.10 seconds

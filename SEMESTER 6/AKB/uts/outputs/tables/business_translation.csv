@@ -1,0 +1,4 @@
+Temuan Data,Makna Bisnis,Implikasi Keputusan
+Average rating digunakan sebagai KPI utama untuk menangkap kesehatan kategori secara umum.,"Skor agregat tetap penting sebagai indikator headline, tetapi perlu dibaca bersama sinyal review buruk.",Pantau average rating sebagai metrik utama dashboard dan pasangkan dengan alarm review negatif.
+"Tema keluhan dominan terkonsentrasi pada efektivitas produk, masalah packaging, dan iritasi/efek samping.",Keluhan utama menyentuh kualitas inti produk dan pengalaman pasca-pembelian.,"Prioritaskan audit kualitas produk, kemasan, dan formulasi pada item yang paling sering dikeluhkan."
+Model klasifikasi sederhana mampu membantu memilah review baik dan review buruk pada skala besar.,Tim bisnis dapat mempercepat triase keluhan tanpa membaca seluruh review secara manual.,Gunakan model sebagai sistem prioritas tindak lanjut untuk QA dan customer service.
