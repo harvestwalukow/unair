@@ -1,0 +1,3371 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/vrt7x5",
+    "id": "vrt7x5",
+    "slide": 2,
+    "layoutId": "17987f9c-4d4f-4ead-9523-decc0792c166",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "49c1c493-f6f9-4607-9393-468b6b2fdbdf",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "17987f9c-4d4f-4ead-9523-decc0792c166",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "49c1c493-f6f9-4607-9393-468b6b2fdbdf",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "49c1c493-f6f9-4607-9393-468b6b2fdbdf",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "1",
+      "bbox": [
+        42,
+        42,
+        1196,
+        8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "lineColor": "#0B7A75"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "2",
+      "bbox": [
+        42,
+        68,
+        1117.63,
+        33.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1.0"
+      },
+      "geometry": "rect",
+      "text": "Large-claim sensitivity confirms that a small set of segments drives most downside in the portfolio.",
+      "textPreview": "Large-claim sensitivity confirms that a small set of segments drives most downside in the portfolio.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#0F2747",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Large-claim sensitivity confirms that a small set of segments drives most downside in the portfolio."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Large-claim sensitivity confirms that a small set of segments drives most downside in the portfolio.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#0F2747",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Large-claim sensitivity confirms that a small set of segments drives most downside in the portfolio.",
+              "fontSize": 28,
+              "color": "#0F2747",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "3",
+      "bbox": [
+        42,
+        105.6,
+        569.97,
+        28.8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1.1"
+      },
+      "geometry": "rect",
+      "text": "Management implication: prioritize underwriting remediation and claim governance in the most volatile pockets first.",
+      "textPreview": "Management implication: prioritize underwriting remediation and claim governance in the most volatile pockets first.",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Management implication: prioritize underwriting remediation and claim governance in the most volatile pockets"
+          },
+          {
+            "index": 2,
+            "text": "first."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Management implication: prioritize underwriting remediation and claim governance in the most volatile pockets first.",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Management implication: prioritize underwriting remediation and claim governance in the most volatile pockets first.",
+              "fontSize": 12,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "4",
+      "bbox": [
+        42,
+        152.4,
+        100.36,
+        31.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.0"
+      },
+      "geometry": "rect",
+      "text": "Segment scorecard",
+      "textPreview": "Segment scorecard",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1F5AA6",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Segment"
+          },
+          {
+            "index": 2,
+            "text": "scorecard"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Segment scorecard",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1F5AA6",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Segment scorecard",
+              "fontSize": 13,
+              "color": "#1F5AA6",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "5",
+      "bbox": [
+        42,
+        193.6,
+        85,
+        26.4
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.1"
+      },
+      "geometry": "rect",
+      "text": "Best scale segment",
+      "textPreview": "Best scale segment",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Best scale"
+          },
+          {
+            "index": 2,
+            "text": "segment"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Best scale segment",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Best scale segment",
+              "fontSize": 11,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "6",
+      "bbox": [
+        42,
+        230,
+        346.91,
+        15.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.2"
+      },
+      "geometry": "rect",
+      "text": "CHANNEL D | Net LR 17.60% | Net underwriting result IDR 411.4B",
+      "textPreview": "CHANNEL D | Net LR 17.60% | Net underwriting result IDR 411.4B",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CHANNEL D | Net LR 17.60% | Net underwriting result IDR 411.4B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CHANNEL D | Net LR 17.60% | Net underwriting result IDR 411.4B",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CHANNEL D | Net LR 17.60% | Net underwriting result IDR 411.4B",
+              "fontSize": 13,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "7",
+      "bbox": [
+        42,
+        255.6,
+        560,
+        1
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.3"
+      },
+      "geometry": "rect",
+      "lineColor": "#D9E0E8"
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0bi9s36",
+      "id": "8",
+      "bbox": [
+        42,
+        266.6,
+        83.87,
+        13.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.4"
+      },
+      "geometry": "rect",
+      "text": "Largest loss pocket",
+      "textPreview": "Largest loss pocket",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Largest loss pocket"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Largest loss pocket",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Largest loss pocket",
+              "fontSize": 11,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fepkzup",
+      "id": "9",
+      "bbox": [
+        42,
+        289.8,
+        356.55,
+        15.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "text": "CHANNEL B | Net LR 116.16% | Net underwriting result -IDR 263.9B",
+      "textPreview": "CHANNEL B | Net LR 116.16% | Net underwriting result -IDR 263.9B",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CHANNEL B | Net LR 116.16% | Net underwriting result -IDR 263.9B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CHANNEL B | Net LR 116.16% | Net underwriting result -IDR 263.9B",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CHANNEL B | Net LR 116.16% | Net underwriting result -IDR 263.9B",
+              "fontSize": 13,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itgfmlkj",
+      "id": "10",
+      "bbox": [
+        42,
+        315.4,
+        560,
+        1
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.6"
+      },
+      "geometry": "rect",
+      "lineColor": "#D9E0E8"
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ed8bat4",
+      "id": "11",
+      "bbox": [
+        42,
+        326.4,
+        94.8,
+        26.4
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.7"
+      },
+      "geometry": "rect",
+      "text": "Most resilient branch",
+      "textPreview": "Most resilient branch",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Most resilient"
+          },
+          {
+            "index": 2,
+            "text": "branch"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Most resilient branch",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Most resilient branch",
+              "fontSize": 11,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0z61032l",
+      "id": "12",
+      "bbox": [
+        42,
+        362.8,
+        334.34,
+        31.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.8"
+      },
+      "geometry": "rect",
+      "text": "BRANCH H | Net LR 12.02% | Net underwriting result IDR 21.3B",
+      "textPreview": "BRANCH H | Net LR 12.02% | Net underwriting result IDR 21.3B",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BRANCH H | Net LR 12.02% | Net underwriting result IDR"
+          },
+          {
+            "index": 2,
+            "text": "21.3B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BRANCH H | Net LR 12.02% | Net underwriting result IDR 21.3B",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BRANCH H | Net LR 12.02% | Net underwriting result IDR 21.3B",
+              "fontSize": 13,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkzupwb2",
+      "id": "13",
+      "bbox": [
+        42,
+        404,
+        560,
+        1
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.9"
+      },
+      "geometry": "rect",
+      "lineColor": "#D9E0E8"
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih4byhgn",
+      "id": "14",
+      "bbox": [
+        42,
+        415,
+        93.2,
+        13.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.10"
+      },
+      "geometry": "rect",
+      "text": "Highest-priority class",
+      "textPreview": "Highest-priority class",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Highest-priority class"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Highest-priority class",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Highest-priority class",
+              "fontSize": 11,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "15",
+      "bbox": [
+        42,
+        438.2,
+        334.34,
+        15.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.11"
+      },
+      "geometry": "rect",
+      "text": "COB 4 | Net LR 106.55% | Claim relief only 3.82% of gross claim",
+      "textPreview": "COB 4 | Net LR 106.55% | Claim relief only 3.82% of gross claim",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "COB 4 | Net LR 106.55% | Claim relief only 3.82% of gross claim"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "COB 4 | Net LR 106.55% | Claim relief only 3.82% of gross claim",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "COB 4 | Net LR 106.55% | Claim relief only 3.82% of gross claim",
+              "fontSize": 13,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "16",
+      "bbox": [
+        42,
+        463.8,
+        560,
+        1
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.12"
+      },
+      "geometry": "rect",
+      "lineColor": "#D9E0E8"
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8nqxs72",
+      "id": "17",
+      "bbox": [
+        42,
+        474.8,
+        121.02,
+        13.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.13"
+      },
+      "geometry": "rect",
+      "text": "Trend by underwriting year",
+      "textPreview": "Trend by underwriting year",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Trend by underwriting year"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Trend by underwriting year",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Trend by underwriting year",
+              "fontSize": 11,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8v6psf",
+      "id": "18",
+      "bbox": [
+        42,
+        498,
+        596.32,
+        31.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0.14"
+      },
+      "geometry": "rect",
+      "text": "2021 was the weakest cohort at 68.77% net LR; 2022 improved materially; 2023 remained above 2022 at 38.24%.",
+      "textPreview": "2021 was the weakest cohort at 68.77% net LR; 2022 improved materially; 2023 remained above 2022 at 38.24%.",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2021 was the weakest cohort at 68.77% net LR; 2022 improved materially; 2023 remained above 2022 at"
+          },
+          {
+            "index": 2,
+            "text": "38.24%."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2021 was the weakest cohort at 68.77% net LR; 2022 improved materially; 2023 remained above 2022 at 38.24%.",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2021 was the weakest cohort at 68.77% net LR; 2022 improved materially; 2023 remained above 2022 at 38.24%.",
+              "fontSize": 13,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y1kre1w",
+      "id": "19",
+      "bbox": [
+        628,
+        152.4,
+        132.77,
+        31.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.0"
+      },
+      "geometry": "rect",
+      "text": "Sensitivity to large claims",
+      "textPreview": "Sensitivity to large claims",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1F5AA6",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sensitivity to large"
+          },
+          {
+            "index": 2,
+            "text": "claims"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sensitivity to large claims",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1F5AA6",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sensitivity to large claims",
+              "fontSize": 13,
+              "color": "#1F5AA6",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "20",
+      "bbox": [
+        628,
+        195.6,
+        182.28,
+        60
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.1"
+      },
+      "geometry": "rect",
+      "text": "58.54%  →  5.07%",
+      "textPreview": "58.54%  →  5.07%",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#0F2747",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "58.54%  →"
+          },
+          {
+            "index": 2,
+            "text": "5.07%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "58.54%  →  5.07%",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#0F2747",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "58.54%  →  5.07%",
+              "fontSize": 25,
+              "color": "#0F2747",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "21",
+      "bbox": [
+        628,
+        267.6,
+        412.27,
+        15.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.2"
+      },
+      "geometry": "rect",
+      "text": "Portfolio net loss ratio if large-claim impact is excluded in a sensitivity scenario",
+      "textPreview": "Portfolio net loss ratio if large-claim impact is excluded in a sensitivity scenario",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Portfolio net loss ratio if large-claim impact is excluded in a sensitivity scenario"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Portfolio net loss ratio if large-claim impact is excluded in a sensitivity scenario",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Portfolio net loss ratio if large-claim impact is excluded in a sensitivity scenario",
+              "fontSize": 13,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cfa9w3m",
+      "id": "22",
+      "bbox": [
+        628,
+        295.2,
+        560,
+        1
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.3"
+      },
+      "geometry": "rect",
+      "lineColor": "#D9E0E8"
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "23",
+      "bbox": [
+        628,
+        308.2,
+        97.18,
+        30
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.4"
+      },
+      "geometry": "rect",
+      "text": "105.1 ppt",
+      "textPreview": "105.1 ppt",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#0F2747",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "105.1 ppt"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "105.1 ppt",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#0F2747",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "105.1 ppt",
+              "fontSize": 25,
+              "color": "#0F2747",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "24",
+      "bbox": [
+        628,
+        350.2,
+        397.9,
+        31.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.5"
+      },
+      "geometry": "rect",
+      "text": "Largest net LR reduction occurs in COB 4, improving from 106.55% to 1.43%",
+      "textPreview": "Largest net LR reduction occurs in COB 4, improving from 106.55% to 1.43%",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Largest net LR reduction occurs in COB 4, improving from 106.55% to"
+          },
+          {
+            "index": 2,
+            "text": "1.43%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Largest net LR reduction occurs in COB 4, improving from 106.55% to 1.43%",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Largest net LR reduction occurs in COB 4, improving from 106.55% to 1.43%",
+              "fontSize": 13,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "25",
+      "bbox": [
+        628,
+        393.4,
+        560,
+        1
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.6"
+      },
+      "geometry": "rect",
+      "lineColor": "#D9E0E8"
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kre1w7m",
+      "id": "26",
+      "bbox": [
+        628,
+        406.4,
+        120.42,
+        31.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.7"
+      },
+      "geometry": "rect",
+      "text": "Recommended actions",
+      "textPreview": "Recommended actions",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#0F2747",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Recommended"
+          },
+          {
+            "index": 2,
+            "text": "actions"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Recommended actions",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#0F2747",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Recommended actions",
+              "fontSize": 13,
+              "color": "#0F2747",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "27",
+      "bbox": [
+        628,
+        449.6,
+        431.29,
+        31.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.8"
+      },
+      "geometry": "rect",
+      "text": "1. Tighten underwriting terms and pricing for COB 4, Channel B, and Product0221.",
+      "textPreview": "1. Tighten underwriting terms and pricing for COB 4, Channel B, and Product0221.",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Tighten underwriting terms and pricing for COB 4, Channel B, and"
+          },
+          {
+            "index": 2,
+            "text": "Product0221."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. Tighten underwriting terms and pricing for COB 4, Channel B, and Product0221.",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. Tighten underwriting terms and pricing for COB 4, Channel B, and Product0221.",
+              "fontSize": 13,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "28",
+      "bbox": [
+        628,
+        492.8,
+        548.84,
+        31.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.9"
+      },
+      "geometry": "rect",
+      "text": "2. Review claim management and case reserving for large-loss cohorts, especially 2021 vintage business.",
+      "textPreview": "2. Review claim management and case reserving for large-loss cohorts, especially 2021 vintage business.",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. Review claim management and case reserving for large-loss cohorts, especially 2021 vintage"
+          },
+          {
+            "index": 2,
+            "text": "business."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2. Review claim management and case reserving for large-loss cohorts, especially 2021 vintage business.",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. Review claim management and case reserving for large-loss cohorts, especially 2021 vintage business.",
+              "fontSize": 13,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "29",
+      "bbox": [
+        628,
+        536,
+        516.4,
+        31.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1.10"
+      },
+      "geometry": "rect",
+      "text": "3. Revisit reinsurance structure for segments with low claim relief despite high downside volatility.",
+      "textPreview": "3. Revisit reinsurance structure for segments with low claim relief despite high downside volatility.",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3. Revisit reinsurance structure for segments with low claim relief despite high downside"
+          },
+          {
+            "index": 2,
+            "text": "volatility."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3. Revisit reinsurance structure for segments with low claim relief despite high downside volatility.",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Revisit reinsurance structure for segments with low claim relief despite high downside volatility.",
+              "fontSize": 13,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fepkzup",
+      "id": "30",
+      "bbox": [
+        42,
+        585.2,
+        299.67,
+        12
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3"
+      },
+      "geometry": "rect",
+      "text": "Source: Step 5 notebook result | Figures rounded for executive readability",
+      "textPreview": "Source: Step 5 notebook result | Figures rounded for executive readability",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: Step 5 notebook result | Figures rounded for executive readability"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: Step 5 notebook result | Figures rounded for executive readability",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: Step 5 notebook result | Figures rounded for executive readability",
+              "fontSize": 10,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "root": {
+        "path": "0",
+        "kind": "column",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "hug"
+          }
+        },
+        "intrinsicSize": {
+          "width": 1280,
+          "height": 513.6
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 639.2
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "shape",
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1196
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 8
+              }
+            },
+            "intrinsicSize": {
+              "width": 1196,
+              "height": 8
+            },
+            "frame": {
+              "left": 42,
+              "top": 42,
+              "width": 1196,
+              "height": 8
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/0rqd4vmt",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "column",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "hug"
+              }
+            },
+            "intrinsicSize": {
+              "width": 1117.63,
+              "height": 52
+            },
+            "frame": {
+              "left": 42,
+              "top": 68,
+              "width": 1196,
+              "height": 66.4
+            },
+            "children": [
+              {
+                "path": "0.1.0",
+                "kind": "text",
+                "requestedSize": {
+                  "width": {
+                    "mode": "hug"
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 1117.63,
+                  "height": 33.6
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 68,
+                  "width": 1117.63,
+                  "height": 33.6
+                },
+                "children": [],
+                "text": "Large-claim sensitivity confirms that a small set of segments drives most downside in the portfolio.",
+                "transform": "none",
+                "element": {
+                  "aid": "sh/b6xkf6dc",
+                  "id": "2",
+                  "kind": "shape"
+                }
+              },
+              {
+                "path": "0.1.1",
+                "kind": "text",
+                "requestedSize": {
+                  "width": {
+                    "mode": "hug"
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 569.97,
+                  "height": 14.4
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 105.6,
+                  "width": 569.97,
+                  "height": 28.8
+                },
+                "children": [],
+                "text": "Management implication: prioritize underwriting remediation and claim governance in the most volatile pockets first.",
+                "transform": "none",
+                "element": {
+                  "aid": "sh/il0rqd4v",
+                  "id": "3",
+                  "kind": "shape"
+                }
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "gap": 4,
+            "effectiveGap": 4,
+            "justifyOffset": 0,
+            "align": "start",
+            "justify": "start",
+            "contentFrame": {
+              "left": 42,
+              "top": 68,
+              "width": 1196,
+              "height": 66.4
+            },
+            "items": [
+              {
+                "path": "0.1.0",
+                "frame": {
+                  "left": 42,
+                  "top": 68,
+                  "width": 1117.63,
+                  "height": 33.6
+                }
+              },
+              {
+                "path": "0.1.1",
+                "frame": {
+                  "left": 42,
+                  "top": 105.6,
+                  "width": 569.97,
+                  "height": 28.8
+                }
+              }
+            ]
+          },
+          {
+            "path": "0.2",
+            "kind": "row",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "hug"
+              }
+            },
+            "intrinsicSize": {
+              "width": 1146,
+              "height": 303.6
+            },
+            "frame": {
+              "left": 42,
+              "top": 152.4,
+              "width": 1196,
+              "height": 414.8
+            },
+            "children": [
+              {
+                "path": "0.2.0",
+                "kind": "column",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fixed",
+                    "value": 560
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 596.32,
+                  "height": 303.6
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 152.4,
+                  "width": 560,
+                  "height": 376.8
+                },
+                "children": [
+                  {
+                    "path": "0.2.0.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 100.36,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 152.4,
+                      "width": 100.36,
+                      "height": 31.2
+                    },
+                    "children": [],
+                    "text": "Segment scorecard",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/t47y1kre",
+                      "id": "4",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 85,
+                      "height": 13.2
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 193.6,
+                      "width": 85,
+                      "height": 26.4
+                    },
+                    "children": [],
+                    "text": "Best scale segment",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/0je9cvix",
+                      "id": "5",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.2",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 346.91,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 230,
+                      "width": 346.91,
+                      "height": 15.6
+                    },
+                    "children": [],
+                    "text": "CHANNEL D | Net LR 17.60% | Net underwriting result IDR 411.4B",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/byhgn29g",
+                      "id": "6",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.3",
+                    "kind": "shape",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fixed",
+                        "value": 560
+                      },
+                      "height": {
+                        "mode": "fixed",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 560,
+                      "height": 1
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 255.6,
+                      "width": 560,
+                      "height": 1
+                    },
+                    "children": [],
+                    "geometry": "rect",
+                    "element": {
+                      "aid": "sh/idonyd0z",
+                      "id": "7",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.4",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 83.87,
+                      "height": 13.2
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 266.6,
+                      "width": 83.87,
+                      "height": 13.2
+                    },
+                    "children": [],
+                    "text": "Largest loss pocket",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/p0bi9s36",
+                      "id": "8",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.5",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 356.55,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 289.8,
+                      "width": 356.55,
+                      "height": 15.6
+                    },
+                    "children": [],
+                    "text": "CHANNEL B | Net LR 116.16% | Net underwriting result -IDR 263.9B",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/0fepkzup",
+                      "id": "9",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.6",
+                    "kind": "shape",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fixed",
+                        "value": 560
+                      },
+                      "height": {
+                        "mode": "fixed",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 560,
+                      "height": 1
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 315.4,
+                      "width": 560,
+                      "height": 1
+                    },
+                    "children": [],
+                    "geometry": "rect",
+                    "element": {
+                      "aid": "sh/itgfmlkj",
+                      "id": "10",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.7",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 94.8,
+                      "height": 13.2
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 326.4,
+                      "width": 94.8,
+                      "height": 26.4
+                    },
+                    "children": [],
+                    "text": "Most resilient branch",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/7ed8bat4",
+                      "id": "11",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.8",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 334.34,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 362.8,
+                      "width": 334.34,
+                      "height": 31.2
+                    },
+                    "children": [],
+                    "text": "BRANCH H | Net LR 12.02% | Net underwriting result IDR 21.3B",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/0z61032l",
+                      "id": "12",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.9",
+                    "kind": "shape",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fixed",
+                        "value": 560
+                      },
+                      "height": {
+                        "mode": "fixed",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 560,
+                      "height": 1
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 404,
+                      "width": 560,
+                      "height": 1
+                    },
+                    "children": [],
+                    "geometry": "rect",
+                    "element": {
+                      "aid": "sh/pkzupwb2",
+                      "id": "13",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.10",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 93.2,
+                      "height": 13.2
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 415,
+                      "width": 93.2,
+                      "height": 13.2
+                    },
+                    "children": [],
+                    "text": "Highest-priority class",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/ih4byhgn",
+                      "id": "14",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.11",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 334.34,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 438.2,
+                      "width": 334.34,
+                      "height": 15.6
+                    },
+                    "children": [],
+                    "text": "COB 4 | Net LR 106.55% | Claim relief only 3.82% of gross claim",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/72x4nap4",
+                      "id": "15",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.12",
+                    "kind": "shape",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fixed",
+                        "value": 560
+                      },
+                      "height": {
+                        "mode": "fixed",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 560,
+                      "height": 1
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 463.8,
+                      "width": 560,
+                      "height": 1
+                    },
+                    "children": [],
+                    "geometry": "rect",
+                    "element": {
+                      "aid": "sh/0nuxc3yl",
+                      "id": "16",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.13",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 121.02,
+                      "height": 13.2
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 474.8,
+                      "width": 121.02,
+                      "height": 13.2
+                    },
+                    "children": [],
+                    "text": "Trend by underwriting year",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/p8nqxs72",
+                      "id": "17",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.0.14",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 596.32,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 498,
+                      "width": 596.32,
+                      "height": 31.2
+                    },
+                    "children": [],
+                    "text": "2021 was the weakest cohort at 68.77% net LR; 2022 improved materially; 2023 remained above 2022 at 38.24%.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/ed8v6psf",
+                      "id": "18",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 10,
+                "effectiveGap": 10,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 42,
+                  "top": 152.4,
+                  "width": 560,
+                  "height": 376.8
+                },
+                "items": [
+                  {
+                    "path": "0.2.0.0",
+                    "frame": {
+                      "left": 42,
+                      "top": 152.4,
+                      "width": 100.36,
+                      "height": 31.2
+                    }
+                  },
+                  {
+                    "path": "0.2.0.1",
+                    "frame": {
+                      "left": 42,
+                      "top": 193.6,
+                      "width": 85,
+                      "height": 26.4
+                    }
+                  },
+                  {
+                    "path": "0.2.0.2",
+                    "frame": {
+                      "left": 42,
+                      "top": 230,
+                      "width": 346.91,
+                      "height": 15.6
+                    }
+                  },
+                  {
+                    "path": "0.2.0.3",
+                    "frame": {
+                      "left": 42,
+                      "top": 255.6,
+                      "width": 560,
+                      "height": 1
+                    }
+                  },
+                  {
+                    "path": "0.2.0.4",
+                    "frame": {
+                      "left": 42,
+                      "top": 266.6,
+                      "width": 83.87,
+                      "height": 13.2
+                    }
+                  },
+                  {
+                    "path": "0.2.0.5",
+                    "frame": {
+                      "left": 42,
+                      "top": 289.8,
+                      "width": 356.55,
+                      "height": 15.6
+                    }
+                  },
+                  {
+                    "path": "0.2.0.6",
+                    "frame": {
+                      "left": 42,
+                      "top": 315.4,
+                      "width": 560,
+                      "height": 1
+                    }
+                  },
+                  {
+                    "path": "0.2.0.7",
+                    "frame": {
+                      "left": 42,
+                      "top": 326.4,
+                      "width": 94.8,
+                      "height": 26.4
+                    }
+                  },
+                  {
+                    "path": "0.2.0.8",
+                    "frame": {
+                      "left": 42,
+                      "top": 362.8,
+                      "width": 334.34,
+                      "height": 31.2
+                    }
+                  },
+                  {
+                    "path": "0.2.0.9",
+                    "frame": {
+                      "left": 42,
+                      "top": 404,
+                      "width": 560,
+                      "height": 1
+                    }
+                  },
+                  {
+                    "path": "0.2.0.10",
+                    "frame": {
+                      "left": 42,
+                      "top": 415,
+                      "width": 93.2,
+                      "height": 13.2
+                    }
+                  },
+                  {
+                    "path": "0.2.0.11",
+                    "frame": {
+                      "left": 42,
+                      "top": 438.2,
+                      "width": 334.34,
+                      "height": 15.6
+                    }
+                  },
+                  {
+                    "path": "0.2.0.12",
+                    "frame": {
+                      "left": 42,
+                      "top": 463.8,
+                      "width": 560,
+                      "height": 1
+                    }
+                  },
+                  {
+                    "path": "0.2.0.13",
+                    "frame": {
+                      "left": 42,
+                      "top": 474.8,
+                      "width": 121.02,
+                      "height": 13.2
+                    }
+                  },
+                  {
+                    "path": "0.2.0.14",
+                    "frame": {
+                      "left": 42,
+                      "top": 498,
+                      "width": 596.32,
+                      "height": 31.2
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.2.1",
+                "kind": "column",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fixed",
+                    "value": 560
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 560,
+                  "height": 291.2
+                },
+                "frame": {
+                  "left": 628,
+                  "top": 152.4,
+                  "width": 560,
+                  "height": 414.8
+                },
+                "children": [
+                  {
+                    "path": "0.2.1.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 132.77,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 152.4,
+                      "width": 132.77,
+                      "height": 31.2
+                    },
+                    "children": [],
+                    "text": "Sensitivity to large claims",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/7y1kre1w",
+                      "id": "19",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.1.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 182.28,
+                      "height": 30
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 195.6,
+                      "width": 182.28,
+                      "height": 60
+                    },
+                    "children": [],
+                    "text": "58.54%  →  5.07%",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/j6tovaho",
+                      "id": "20",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.1.2",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 412.27,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 267.6,
+                      "width": 412.27,
+                      "height": 15.6
+                    },
+                    "children": [],
+                    "text": "Portfolio net loss ratio if large-claim impact is excluded in a sensitivity scenario",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/ulwval87",
+                      "id": "21",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.1.3",
+                    "kind": "shape",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fixed",
+                        "value": 560
+                      },
+                      "height": {
+                        "mode": "fixed",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 560,
+                      "height": 1
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 295.2,
+                      "width": 560,
+                      "height": 1
+                    },
+                    "children": [],
+                    "geometry": "rect",
+                    "element": {
+                      "aid": "sh/1cfa9w3m",
+                      "id": "22",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.1.4",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 97.18,
+                      "height": 30
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 308.2,
+                      "width": 97.18,
+                      "height": 30
+                    },
+                    "children": [],
+                    "text": "105.1 ppt",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/crmhk3q5",
+                      "id": "23",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.1.5",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 397.9,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 350.2,
+                      "width": 397.9,
+                      "height": 31.2
+                    },
+                    "children": [],
+                    "text": "Largest net LR reduction occurs in COB 4, improving from 106.55% to 1.43%",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/ji5snelo",
+                      "id": "24",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.1.6",
+                    "kind": "shape",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fixed",
+                        "value": 560
+                      },
+                      "height": {
+                        "mode": "fixed",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 560,
+                      "height": 1
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 393.4,
+                      "width": 560,
+                      "height": 1
+                    },
+                    "children": [],
+                    "geometry": "rect",
+                    "element": {
+                      "aid": "sh/uxc3ylc7",
+                      "id": "25",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.1.7",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 120.42,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 406.4,
+                      "width": 120.42,
+                      "height": 31.2
+                    },
+                    "children": [],
+                    "text": "Recommended actions",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/1kre1w7m",
+                      "id": "26",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.1.8",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 431.29,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 449.6,
+                      "width": 431.29,
+                      "height": 31.2
+                    },
+                    "children": [],
+                    "text": "1. Tighten underwriting terms and pricing for COB 4, Channel B, and Product0221.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/c3ylc7u5",
+                      "id": "27",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.1.9",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 548.84,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 492.8,
+                      "width": 548.84,
+                      "height": 31.2
+                    },
+                    "children": [],
+                    "text": "2. Review claim management and case reserving for large-loss cohorts, especially 2021 vintage business.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/jqh0fepk",
+                      "id": "28",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.2.1.10",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 516.4,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 628,
+                      "top": 536,
+                      "width": 516.4,
+                      "height": 31.2
+                    },
+                    "children": [],
+                    "text": "3. Revisit reinsurance structure for segments with low claim relief despite high downside volatility.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/q5o7qpg3",
+                      "id": "29",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 12,
+                "effectiveGap": 12,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 628,
+                  "top": 152.4,
+                  "width": 560,
+                  "height": 414.8
+                },
+                "items": [
+                  {
+                    "path": "0.2.1.0",
+                    "frame": {
+                      "left": 628,
+                      "top": 152.4,
+                      "width": 132.77,
+                      "height": 31.2
+                    }
+                  },
+                  {
+                    "path": "0.2.1.1",
+                    "frame": {
+                      "left": 628,
+                      "top": 195.6,
+                      "width": 182.28,
+                      "height": 60
+                    }
+                  },
+                  {
+                    "path": "0.2.1.2",
+                    "frame": {
+                      "left": 628,
+                      "top": 267.6,
+                      "width": 412.27,
+                      "height": 15.6
+                    }
+                  },
+                  {
+                    "path": "0.2.1.3",
+                    "frame": {
+                      "left": 628,
+                      "top": 295.2,
+                      "width": 560,
+                      "height": 1
+                    }
+                  },
+                  {
+                    "path": "0.2.1.4",
+                    "frame": {
+                      "left": 628,
+                      "top": 308.2,
+                      "width": 97.18,
+                      "height": 30
+                    }
+                  },
+                  {
+                    "path": "0.2.1.5",
+                    "frame": {
+                      "left": 628,
+                      "top": 350.2,
+                      "width": 397.9,
+                      "height": 31.2
+                    }
+                  },
+                  {
+                    "path": "0.2.1.6",
+                    "frame": {
+                      "left": 628,
+                      "top": 393.4,
+                      "width": 560,
+                      "height": 1
+                    }
+                  },
+                  {
+                    "path": "0.2.1.7",
+                    "frame": {
+                      "left": 628,
+                      "top": 406.4,
+                      "width": 120.42,
+                      "height": 31.2
+                    }
+                  },
+                  {
+                    "path": "0.2.1.8",
+                    "frame": {
+                      "left": 628,
+                      "top": 449.6,
+                      "width": 431.29,
+                      "height": 31.2
+                    }
+                  },
+                  {
+                    "path": "0.2.1.9",
+                    "frame": {
+                      "left": 628,
+                      "top": 492.8,
+                      "width": 548.84,
+                      "height": 31.2
+                    }
+                  },
+                  {
+                    "path": "0.2.1.10",
+                    "frame": {
+                      "left": 628,
+                      "top": 536,
+                      "width": 516.4,
+                      "height": 31.2
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "gap": 26,
+            "effectiveGap": 26,
+            "justifyOffset": 0,
+            "align": "start",
+            "justify": "start",
+            "contentFrame": {
+              "left": 42,
+              "top": 152.4,
+              "width": 1196,
+              "height": 414.8
+            },
+            "items": [
+              {
+                "path": "0.2.0",
+                "frame": {
+                  "left": 42,
+                  "top": 152.4,
+                  "width": 560,
+                  "height": 376.8
+                }
+              },
+              {
+                "path": "0.2.1",
+                "frame": {
+                  "left": 628,
+                  "top": 152.4,
+                  "width": 560,
+                  "height": 414.8
+                }
+              }
+            ]
+          },
+          {
+            "path": "0.3",
+            "kind": "text",
+            "requestedSize": {
+              "width": {
+                "mode": "hug"
+              },
+              "height": {
+                "mode": "hug"
+              }
+            },
+            "intrinsicSize": {
+              "width": 299.67,
+              "height": 12
+            },
+            "frame": {
+              "left": 42,
+              "top": 585.2,
+              "width": 299.67,
+              "height": 12
+            },
+            "children": [],
+            "text": "Source: Step 5 notebook result | Figures rounded for executive readability",
+            "transform": "none",
+            "element": {
+              "aid": "sh/0fepkzup",
+              "id": "30",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 42,
+          "right": 42,
+          "bottom": 42,
+          "left": 42
+        },
+        "gap": 18,
+        "effectiveGap": 18,
+        "justifyOffset": 0,
+        "align": "start",
+        "justify": "start",
+        "contentFrame": {
+          "left": 42,
+          "top": 42,
+          "width": 1196,
+          "height": 555.2
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 42,
+              "top": 42,
+              "width": 1196,
+              "height": 8
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 42,
+              "top": 68,
+              "width": 1196,
+              "height": 66.4
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 42,
+              "top": 152.4,
+              "width": 1196,
+              "height": 414.8
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 42,
+              "top": 585.2,
+              "width": 299.67,
+              "height": 12
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "retrieved_at_utc": "2026-06-20T08:55:10.525615+00:00",
+  "geo": "ID",
+  "timeframe_requested": "2022-01-01 2026-06-20",
+  "frequency_returned": "weekly",
+  "keywords": [
+    "harga naik",
+    "biaya hidup",
+    "harga beras",
+    "harga bbm",
+    "PHK"
+  ],
+  "files": [
+    "data\\raw\\google_trends_native\\google_trends_raw.csv"
+  ],
+  "processing": "None; all five native Google Trends scores retained from one request."
+}

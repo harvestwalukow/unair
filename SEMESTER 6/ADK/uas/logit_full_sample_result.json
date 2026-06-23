@@ -1,0 +1,51 @@
+{
+  "rows_used": 762,
+  "accuracy_full_sample": 0.6889763779527559,
+  "iterations": 6,
+  "feature_count_with_intercept": 40,
+  "class_distribution": {
+    "LOW": 108,
+    "INTERMEDIARY": 286,
+    "HIGH": 368
+  },
+  "confusion_matrix": [
+    [
+      9,
+      53,
+      46
+    ],
+    [
+      11,
+      212,
+      63
+    ],
+    [
+      11,
+      53,
+      304
+    ]
+  ],
+  "classification_report": [
+    {
+      "kelas": "LOW",
+      "precision": 0.2903225806451613,
+      "recall": 0.08333333333333333,
+      "f1_score": 0.12949640287769784,
+      "support": 108
+    },
+    {
+      "kelas": "INTERMEDIARY",
+      "precision": 0.6666666666666666,
+      "recall": 0.7412587412587412,
+      "f1_score": 0.7019867549668874,
+      "support": 286
+    },
+    {
+      "kelas": "HIGH",
+      "precision": 0.7360774818401937,
+      "recall": 0.8260869565217391,
+      "f1_score": 0.7784891165172856,
+      "support": 368
+    }
+  ]
+}

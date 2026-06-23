@@ -1,0 +1,110 @@
+{
+  "seed": 42,
+  "sentiment_model": "w11wo/indonesian-roberta-base-sentiment-classifier",
+  "x_raw_rows": 1080,
+  "x_indonesian_rows": 972,
+  "x_negative_label_rows": 496,
+  "x_negative_probability_mean": 0.504873486396797,
+  "x_collection_method": "20 TOP posts per calendar-month query",
+  "x_query": "(\"harga\" OR \"ekonomi\")",
+  "google_trends_terms": [
+    "harga naik",
+    "biaya hidup",
+    "harga beras",
+    "harga bbm",
+    "PHK"
+  ],
+  "google_trends_term_count": 5,
+  "fx_source_file": "data\\idr_usd_2022_today.csv",
+  "weekly_start": "2022-01-02",
+  "weekly_end": "2026-06-14",
+  "missing_values_before_train_fitted_imputation": {
+    "x_tweet_volume_log1p": 0,
+    "x_negative_sentiment_mean": 3,
+    "x_negative_tweet_ratio": 3,
+    "gt_harga_naik": 0,
+    "gt_biaya_hidup": 0,
+    "gt_harga_beras": 0,
+    "gt_harga_bbm": 0,
+    "gt_phk": 0,
+    "gt_mean_score": 0,
+    "usd_idr_return": 2,
+    "usd_idr_volatility_4w": 5,
+    "rupiah_depreciation_dummy": 1
+  },
+  "weeks": 233,
+  "pca_train_weeks": 186,
+  "pca_test_weeks": 47,
+  "test_start_week": "2025-07-27",
+  "google_trends_winsor_quantile": 0.975,
+  "google_trends_train_upper_bounds": {
+    "gt_harga_naik": 9.375,
+    "gt_biaya_hidup": 2.0,
+    "gt_harga_beras": 8.0,
+    "gt_harga_bbm": 12.125,
+    "gt_phk": 5.0
+  },
+  "pc1_explained_variance_ratio": 0.24139976619429976,
+  "orientation_correlation_before_sign": 0.523879072148365,
+  "orientation_sign": 1,
+  "pca_loadings": {
+    "x_tweet_volume_log1p": -0.027598455630625553,
+    "x_negative_sentiment_mean": 0.10360161760599554,
+    "x_negative_tweet_ratio": 0.09068832678056496,
+    "gt_harga_naik": 0.46541666496860123,
+    "gt_biaya_hidup": 0.35643733146657924,
+    "gt_harga_beras": 0.30068895526406725,
+    "gt_harga_bbm": 0.4342823647769093,
+    "gt_phk": 0.15618471030142975,
+    "gt_mean_score": 0.5768717994489168,
+    "usd_idr_return": 0.013217199313829614,
+    "usd_idr_volatility_4w": -0.0028597715406847857,
+    "rupiah_depreciation_dummy": 0.015741175689743668
+  },
+  "forecast_protocol": "expanding walk-forward one-step-ahead",
+  "ensemble_weights": {
+    "Ridge Regression": 0.5,
+    "Random Forest": 0.5
+  },
+  "random_forest_params": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": 5,
+    "max_features": 0.8,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 8,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 150,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "ridge_alpha": 10.0,
+  "training_cv_metrics": {
+    "Ridge Regression": {
+      "mae": 1.0921879551937717,
+      "rmse": 1.3106024880810587,
+      "r2": -0.015651552410294256
+    },
+    "Random Forest": {
+      "mae": 0.9813719829985232,
+      "rmse": 1.2165729590692462,
+      "r2": 0.12485688846732024
+    },
+    "Ensemble": {
+      "mae": 0.9834945953972614,
+      "rmse": 1.1977722079623676,
+      "r2": 0.1516965676078027
+    }
+  },
+  "forecast_train_rows": 177,
+  "forecast_test_rows": 46,
+  "best_test_model_by_rmse": "Ensemble Ridge-Random Forest"
+}

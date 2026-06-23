@@ -1,0 +1,140 @@
+{
+  "rows": {
+    "original": 1529,
+    "complete_case": 762,
+    "deleted": 767
+  },
+  "distribution": {
+    "LOW": 108,
+    "INTERMEDIARY": 286,
+    "HIGH": 368
+  },
+  "split": {
+    "train": 571,
+    "test": 191
+  },
+  "models": {
+    "Multinomial Logistic Regression": {
+      "accuracy": 0.7068062827225131,
+      "confusion": [
+        [
+          3,
+          12,
+          12
+        ],
+        [
+          2,
+          55,
+          15
+        ],
+        [
+          7,
+          8,
+          77
+        ]
+      ],
+      "metrics": {
+        "LOW": {
+          "precision": 0.25,
+          "recall": 0.1111111111111111,
+          "f1": 0.15384615384615383,
+          "support": 27
+        },
+        "INTERMEDIARY": {
+          "precision": 0.7333333333333333,
+          "recall": 0.7638888888888888,
+          "f1": 0.7482993197278911,
+          "support": 72
+        },
+        "HIGH": {
+          "precision": 0.7403846153846154,
+          "recall": 0.8369565217391305,
+          "f1": 0.7857142857142858,
+          "support": 92
+        }
+      },
+      "iterations": 7,
+      "feature_count_with_intercept": 40
+    },
+    "Random Forest": {
+      "accuracy": 0.6858638743455497,
+      "confusion": [
+        [
+          2,
+          12,
+          13
+        ],
+        [
+          6,
+          52,
+          14
+        ],
+        [
+          2,
+          13,
+          77
+        ]
+      ],
+      "metrics": {
+        "LOW": {
+          "precision": 0.2,
+          "recall": 0.07407407407407407,
+          "f1": 0.10810810810810811,
+          "support": 27
+        },
+        "INTERMEDIARY": {
+          "precision": 0.6753246753246753,
+          "recall": 0.7222222222222222,
+          "f1": 0.6979865771812082,
+          "support": 72
+        },
+        "HIGH": {
+          "precision": 0.7403846153846154,
+          "recall": 0.8369565217391305,
+          "f1": 0.7857142857142858,
+          "support": 92
+        }
+      }
+    },
+    "XGBoost": {
+      "accuracy": 0.6858638743455497,
+      "confusion": [
+        [
+          6,
+          12,
+          9
+        ],
+        [
+          5,
+          51,
+          16
+        ],
+        [
+          5,
+          13,
+          74
+        ]
+      ],
+      "metrics": {
+        "LOW": {
+          "precision": 0.375,
+          "recall": 0.2222222222222222,
+          "f1": 0.27906976744186046,
+          "support": 27
+        },
+        "INTERMEDIARY": {
+          "precision": 0.6710526315789473,
+          "recall": 0.7083333333333334,
+          "f1": 0.6891891891891891,
+          "support": 72
+        },
+        "HIGH": {
+          "precision": 0.7474747474747475,
+          "recall": 0.8043478260869565,
+          "f1": 0.774869109947644,
+          "support": 92
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+Source: step5_loss_ratio_profitability_analysis_result.ipynb
+Run date reviewed: June 4, 2026
+
+Portfolio metrics:
+- GWP total: IDR 2.511T
+- RWP total: IDR 546.6B
+- Net premium: IDR 1.964T
+- Gross claim: IDR 1.239T
+- Reinsurance recovery: IDR 89.1B
+- Net claim: IDR 1.150T
+- Gross underwriting result: IDR 712.0B
+- Net underwriting result: IDR 358.7B
+- Gross LR: 49.34%
+- Net LR: 58.54%
+- Premium ceded ratio: 21.77%
+- Claim relief ratio: 7.19%
+
+Most profitable segments:
+- COB: COB 3, Net LR 6.03%, Net underwriting result IDR 16.4B
+- Branch: BRANCH H, Net LR 12.02%, Net underwriting result IDR 21.3B
+- Channel: CHANNEL D, Net LR 17.60%, Net underwriting result IDR 411.4B
+- Product: PRODUCT1006, Net LR 2.62%, Net underwriting result IDR 4.7B
+
+Most loss-making segments:
+- COB: COB 4, Net LR 106.55%, Net underwriting result -IDR 91.7B
+- Branch: BRANCH K, Net LR 103.87%, Net underwriting result -IDR 257.2B
+- Channel: CHANNEL B, Net LR 116.16%, Net underwriting result -IDR 263.9B
+- Product: PRODUCT0221, Net LR 120.59%, Net underwriting result -IDR 80.4B
+
+Large-claim sensitivity:
+- Portfolio net LR falls from 58.54% to 5.07% in sensitivity scenario excluding large-claim impact
+- COB 4: net LR improves from 106.55% to 1.43%
+- COB 6: net LR improves from 92.40% to 0.29%
+- COB 7: net LR improves from 87.00% to 22.40%
+
+Underwriting year trend:
+- 2021 net LR: 68.77%
+- 2022 net LR: 32.78%
+- 2023 net LR: 38.24%
+
+Interpretation rules used:
+- Net LR > 100% = loss-making from claims versus net premium perspective
+- Reinsurance recovery helps nominal claims but does not guarantee lower net LR
+- Large-claim section is a sensitivity analysis, not a realistic forecast

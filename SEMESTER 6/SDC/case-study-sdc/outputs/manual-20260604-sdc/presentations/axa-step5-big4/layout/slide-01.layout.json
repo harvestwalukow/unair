@@ -1,0 +1,3162 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/toqkib",
+    "id": "toqkib",
+    "slide": 1,
+    "layoutId": "17987f9c-4d4f-4ead-9523-decc0792c166",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "49c1c493-f6f9-4607-9393-468b6b2fdbdf",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "17987f9c-4d4f-4ead-9523-decc0792c166",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "49c1c493-f6f9-4607-9393-468b6b2fdbdf",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "49c1c493-f6f9-4607-9393-468b6b2fdbdf",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "1",
+      "bbox": [
+        42,
+        42,
+        1196,
+        8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0"
+      },
+      "geometry": "rect",
+      "lineColor": "#1F5AA6"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32lszqtc",
+      "id": "2",
+      "bbox": [
+        42,
+        68,
+        631.76,
+        67.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1.0"
+      },
+      "geometry": "rect",
+      "text": "AXA Indonesia | Step 5 Loss Ratio & Profitability Review",
+      "textPreview": "AXA Indonesia | Step 5 Loss Ratio & Profitability Review",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#0F2747",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AXA Indonesia | Step 5 Loss Ratio & Profitability"
+          },
+          {
+            "index": 2,
+            "text": "Review"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AXA Indonesia | Step 5 Loss Ratio & Profitability Review",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#0F2747",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AXA Indonesia | Step 5 Loss Ratio & Profitability Review",
+              "fontSize": 28,
+              "color": "#0F2747",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "3",
+      "bbox": [
+        42,
+        139.2,
+        391.73,
+        28.8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.1.1"
+      },
+      "geometry": "rect",
+      "text": "Case study portfolio review | Policy-level aggregation of premium and claim data",
+      "textPreview": "Case study portfolio review | Policy-level aggregation of premium and claim data",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Case study portfolio review | Policy-level aggregation of premium and claim"
+          },
+          {
+            "index": 2,
+            "text": "data"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Case study portfolio review | Policy-level aggregation of premium and claim data",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Case study portfolio review | Policy-level aggregation of premium and claim data",
+              "fontSize": 12,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "4",
+      "bbox": [
+        42,
+        186,
+        972.61,
+        43.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.0"
+      },
+      "geometry": "rect",
+      "text": "Portfolio remains profitable in nominal underwriting terms, but profitability is uneven and concentrated in a few loss-making pockets.",
+      "textPreview": "Portfolio remains profitable in nominal underwriting terms, but profitability is uneven and concentrated in a few loss-making pockets.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Portfolio remains profitable in nominal underwriting terms, but profitability is uneven and concentrated in a few loss-making"
+          },
+          {
+            "index": 2,
+            "text": "pockets."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Portfolio remains profitable in nominal underwriting terms, but profitability is uneven and concentrated in a few loss-making pockets.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Portfolio remains profitable in nominal underwriting terms, but profitability is uneven and concentrated in a few loss-making pockets.",
+              "fontSize": 18,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "5",
+      "bbox": [
+        42,
+        235.2,
+        704.72,
+        16.8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.2.1"
+      },
+      "geometry": "rect",
+      "text": "Net loss ratio at portfolio level is 58.5%, while segment-level stress appears in COB 4, Branch K, Channel B, and Product0221.",
+      "textPreview": "Net loss ratio at portfolio level is 58.5%, while segment-level stress appears in COB 4, Branch K, Channel B, and Product0221.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Net loss ratio at portfolio level is 58.5%, while segment-level stress appears in COB 4, Branch K, Channel B, and Product0221."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Net loss ratio at portfolio level is 58.5%, while segment-level stress appears in COB 4, Branch K, Channel B, and Product0221.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Net loss ratio at portfolio level is 58.5%, while segment-level stress appears in COB 4, Branch K, Channel B, and Product0221.",
+              "fontSize": 14,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ex0nuxc",
+      "id": "6",
+      "bbox": [
+        42,
+        270,
+        101.26,
+        27.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3.0.0"
+      },
+      "geometry": "rect",
+      "text": "IDR 1.964T",
+      "textPreview": "IDR 1.964T",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#0F2747",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IDR 1.964T"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IDR 1.964T",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#0F2747",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IDR 1.964T",
+              "fontSize": 23,
+              "color": "#0F2747",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "7",
+      "bbox": [
+        42,
+        301.6,
+        59.51,
+        13.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3.0.1"
+      },
+      "geometry": "rect",
+      "text": "Net premium",
+      "textPreview": "Net premium",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Net premium"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Net premium",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Net premium",
+              "fontSize": 11,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj2t83i",
+      "id": "8",
+      "bbox": [
+        344.5,
+        270,
+        68.85,
+        55.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3.1.0"
+      },
+      "geometry": "rect",
+      "text": "58.54%",
+      "textPreview": "58.54%",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#0F2747",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "58.54"
+          },
+          {
+            "index": 2,
+            "text": "%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "58.54%",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#0F2747",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "58.54%",
+              "fontSize": 23,
+              "color": "#0F2747",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3m94fu1",
+      "id": "9",
+      "bbox": [
+        344.5,
+        329.2,
+        98.24,
+        26.4
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3.1.1"
+      },
+      "geometry": "rect",
+      "text": "Portfolio net loss ratio",
+      "textPreview": "Portfolio net loss ratio",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Portfolio net loss"
+          },
+          {
+            "index": 2,
+            "text": "ratio"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Portfolio net loss ratio",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Portfolio net loss ratio",
+              "fontSize": 11,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udg7adsj",
+      "id": "10",
+      "bbox": [
+        647,
+        270,
+        102.56,
+        55.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3.2.0"
+      },
+      "geometry": "rect",
+      "text": "IDR 358.7B",
+      "textPreview": "IDR 358.7B",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#0F2747",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IDR"
+          },
+          {
+            "index": 2,
+            "text": "358.7B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IDR 358.7B",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#0F2747",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IDR 358.7B",
+              "fontSize": 23,
+              "color": "#0F2747",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nyd0z610",
+      "id": "11",
+      "bbox": [
+        647,
+        329.2,
+        104.65,
+        26.4
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3.2.1"
+      },
+      "geometry": "rect",
+      "text": "Net underwriting result",
+      "textPreview": "Net underwriting result",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Net underwriting"
+          },
+          {
+            "index": 2,
+            "text": "result"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Net underwriting result",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Net underwriting result",
+              "fontSize": 11,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cj6tovah",
+      "id": "12",
+      "bbox": [
+        949.5,
+        270,
+        68.85,
+        55.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3.3.0"
+      },
+      "geometry": "rect",
+      "text": "21.77%",
+      "textPreview": "21.77%",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#0F2747",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "21.77"
+          },
+          {
+            "index": 2,
+            "text": "%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "21.77%",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#0F2747",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "21.77%",
+              "fontSize": 23,
+              "color": "#0F2747",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/54zidony",
+      "id": "13",
+      "bbox": [
+        949.5,
+        329.2,
+        93.57,
+        26.4
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.3.3.1"
+      },
+      "geometry": "rect",
+      "text": "Premium ceded ratio",
+      "textPreview": "Premium ceded ratio",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Premium ceded"
+          },
+          {
+            "index": 2,
+            "text": "ratio"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Premium ceded ratio",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Premium ceded ratio",
+              "fontSize": 11,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upwb2hwf",
+      "id": "14",
+      "bbox": [
+        42,
+        373.6,
+        150.76,
+        15.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4.0.0"
+      },
+      "geometry": "rect",
+      "text": "Where value is concentrated",
+      "textPreview": "Where value is concentrated",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1F5AA6",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Where value is concentrated"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Where value is concentrated",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1F5AA6",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Where value is concentrated",
+              "fontSize": 13,
+              "color": "#1F5AA6",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nap4r65w",
+      "id": "15",
+      "bbox": [
+        42,
+        399.2,
+        631.23,
+        16.8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4.0.1"
+      },
+      "geometry": "rect",
+      "text": "1. Channel D is the strongest scaled segment with 17.60% net loss ratio and IDR 411.4B net underwriting result.",
+      "textPreview": "1. Channel D is the strongest scaled segment with 17.60% net loss ratio and IDR 411.4B net underwriting result.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Channel D is the strongest scaled segment with 17.60% net loss ratio and IDR 411.4B net underwriting result."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. Channel D is the strongest scaled segment with 17.60% net loss ratio and IDR 411.4B net underwriting result.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. Channel D is the strongest scaled segment with 17.60% net loss ratio and IDR 411.4B net underwriting result.",
+              "fontSize": 14,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvixczed",
+      "id": "16",
+      "bbox": [
+        42,
+        426,
+        664.23,
+        16.8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4.0.2"
+      },
+      "geometry": "rect",
+      "text": "2. COB 3 is the best-performing class with 6.03% net loss ratio, although the policy base is smaller than major classes.",
+      "textPreview": "2. COB 3 is the best-performing class with 6.03% net loss ratio, although the policy base is smaller than major classes.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. COB 3 is the best-performing class with 6.03% net loss ratio, although the policy base is smaller than major classes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2. COB 3 is the best-performing class with 6.03% net loss ratio, although the policy base is smaller than major classes.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. COB 3 is the best-performing class with 6.03% net loss ratio, although the policy base is smaller than major classes.",
+              "fontSize": 14,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5gbq1ory",
+      "id": "17",
+      "bbox": [
+        42,
+        452.8,
+        735.29,
+        33.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4.0.3"
+      },
+      "geometry": "rect",
+      "text": "3. Reinsurance provides claim relief in nominal terms, but lower net premium means net loss ratio can still exceed gross loss ratio.",
+      "textPreview": "3. Reinsurance provides claim relief in nominal terms, but lower net premium means net loss ratio can still exceed gross loss ratio.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3. Reinsurance provides claim relief in nominal terms, but lower net premium means net loss ratio can still exceed gross loss"
+          },
+          {
+            "index": 2,
+            "text": "ratio."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3. Reinsurance provides claim relief in nominal terms, but lower net premium means net loss ratio can still exceed gross loss ratio.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Reinsurance provides claim relief in nominal terms, but lower net premium means net loss ratio can still exceed gross loss ratio.",
+              "fontSize": 14,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u18jqh0f",
+      "id": "18",
+      "bbox": [
+        630,
+        373.6,
+        2,
+        214
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4.1"
+      },
+      "geometry": "rect",
+      "lineColor": "#D9E0E8"
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm1cfa9w",
+      "id": "19",
+      "bbox": [
+        660,
+        373.6,
+        213.81,
+        31.2
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4.2.0"
+      },
+      "geometry": "rect",
+      "text": "Where management attention is needed",
+      "textPreview": "Where management attention is needed",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#1F5AA6",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Where management attention is"
+          },
+          {
+            "index": 2,
+            "text": "needed"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Where management attention is needed",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#1F5AA6",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Where management attention is needed",
+              "fontSize": 13,
+              "color": "#1F5AA6",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bm58z25k",
+      "id": "20",
+      "bbox": [
+        660,
+        414.8,
+        502.95,
+        16.8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4.2.1"
+      },
+      "geometry": "rect",
+      "text": "1. COB 4 is loss-making at 106.55% net loss ratio with -IDR 91.7B net underwriting result.",
+      "textPreview": "1. COB 4 is loss-making at 106.55% net loss ratio with -IDR 91.7B net underwriting result.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. COB 4 is loss-making at 106.55% net loss ratio with -IDR 91.7B net underwriting result."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. COB 4 is loss-making at 106.55% net loss ratio with -IDR 91.7B net underwriting result.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. COB 4 is loss-making at 106.55% net loss ratio with -IDR 91.7B net underwriting result.",
+              "fontSize": 14,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1cfa9w3",
+      "id": "21",
+      "bbox": [
+        660,
+        441.6,
+        515.82,
+        16.8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4.2.2"
+      },
+      "geometry": "rect",
+      "text": "2. Branch K and Channel B are the two largest loss pockets, both above 100% net loss ratio.",
+      "textPreview": "2. Branch K and Channel B are the two largest loss pockets, both above 100% net loss ratio.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. Branch K and Channel B are the two largest loss pockets, both above 100% net loss ratio."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2. Branch K and Channel B are the two largest loss pockets, both above 100% net loss ratio.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. Branch K and Channel B are the two largest loss pockets, both above 100% net loss ratio.",
+              "fontSize": 14,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "22",
+      "bbox": [
+        660,
+        468.4,
+        593.34,
+        16.8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.4.2.3"
+      },
+      "geometry": "rect",
+      "text": "3. Product0221 is the most material loss-making product in the filtered ranking at 120.59% net loss ratio.",
+      "textPreview": "3. Product0221 is the most material loss-making product in the filtered ranking at 120.59% net loss ratio.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#1B2430",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3. Product0221 is the most material loss-making product in the filtered ranking at 120.59% net loss ratio."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3. Product0221 is the most material loss-making product in the filtered ranking at 120.59% net loss ratio.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#1B2430",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Product0221 is the most material loss-making product in the filtered ranking at 120.59% net loss ratio.",
+              "fontSize": 14,
+              "color": "#1B2430",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47y1kre1",
+      "id": "23",
+      "bbox": [
+        42,
+        605.6,
+        405.1,
+        12
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.5"
+      },
+      "geometry": "rect",
+      "text": "Source: Step 5 notebook result | Large-claim analysis shown separately as sensitivity, not as forecast",
+      "textPreview": "Source: Step 5 notebook result | Large-claim analysis shown separately as sensitivity, not as forecast",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#5B6777",
+        "alignment": "left",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: Step 5 notebook result | Large-claim analysis shown separately as sensitivity, not as forecast"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: Step 5 notebook result | Large-claim analysis shown separately as sensitivity, not as forecast",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#5B6777",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: Step 5 notebook result | Large-claim analysis shown separately as sensitivity, not as forecast",
+              "fontSize": 10,
+              "color": "#5B6777",
+              "insets": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "root": {
+        "path": "0",
+        "kind": "column",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "hug"
+          }
+        },
+        "intrinsicSize": {
+          "width": 1280,
+          "height": 549.2
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 659.6
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "shape",
+            "requestedSize": {
+              "width": {
+                "mode": "fixed",
+                "value": 1196
+              },
+              "height": {
+                "mode": "fixed",
+                "value": 8
+              }
+            },
+            "intrinsicSize": {
+              "width": 1196,
+              "height": 8
+            },
+            "frame": {
+              "left": 42,
+              "top": 42,
+              "width": 1196,
+              "height": 8
+            },
+            "children": [],
+            "geometry": "rect",
+            "element": {
+              "aid": "sh/sneloj2t",
+              "id": "1",
+              "kind": "shape"
+            }
+          },
+          {
+            "path": "0.1",
+            "kind": "column",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "hug"
+              }
+            },
+            "intrinsicSize": {
+              "width": 631.76,
+              "height": 52
+            },
+            "frame": {
+              "left": 42,
+              "top": 68,
+              "width": 1196,
+              "height": 100
+            },
+            "children": [
+              {
+                "path": "0.1.0",
+                "kind": "text",
+                "requestedSize": {
+                  "width": {
+                    "mode": "hug"
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 631.76,
+                  "height": 33.6
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 68,
+                  "width": 631.76,
+                  "height": 67.2
+                },
+                "children": [],
+                "text": "AXA Indonesia | Step 5 Loss Ratio & Profitability Review",
+                "transform": "none",
+                "element": {
+                  "aid": "sh/32lszqtc",
+                  "id": "2",
+                  "kind": "shape"
+                }
+              },
+              {
+                "path": "0.1.1",
+                "kind": "text",
+                "requestedSize": {
+                  "width": {
+                    "mode": "hug"
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 391.73,
+                  "height": 14.4
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 139.2,
+                  "width": 391.73,
+                  "height": 28.8
+                },
+                "children": [],
+                "text": "Case study portfolio review | Policy-level aggregation of premium and claim data",
+                "transform": "none",
+                "element": {
+                  "aid": "sh/ahoza1gv",
+                  "id": "3",
+                  "kind": "shape"
+                }
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "gap": 4,
+            "effectiveGap": 4,
+            "justifyOffset": 0,
+            "align": "start",
+            "justify": "start",
+            "contentFrame": {
+              "left": 42,
+              "top": 68,
+              "width": 1196,
+              "height": 100
+            },
+            "items": [
+              {
+                "path": "0.1.0",
+                "frame": {
+                  "left": 42,
+                  "top": 68,
+                  "width": 631.76,
+                  "height": 67.2
+                }
+              },
+              {
+                "path": "0.1.1",
+                "frame": {
+                  "left": 42,
+                  "top": 139.2,
+                  "width": 391.73,
+                  "height": 28.8
+                }
+              }
+            ]
+          },
+          {
+            "path": "0.2",
+            "kind": "column",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "hug"
+              }
+            },
+            "intrinsicSize": {
+              "width": 972.61,
+              "height": 44.4
+            },
+            "frame": {
+              "left": 42,
+              "top": 186,
+              "width": 1196,
+              "height": 66
+            },
+            "children": [
+              {
+                "path": "0.2.0",
+                "kind": "text",
+                "requestedSize": {
+                  "width": {
+                    "mode": "hug"
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 972.61,
+                  "height": 21.6
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 186,
+                  "width": 972.61,
+                  "height": 43.2
+                },
+                "children": [],
+                "text": "Portfolio remains profitable in nominal underwriting terms, but profitability is uneven and concentrated in a few loss-making pockets.",
+                "transform": "none",
+                "element": {
+                  "aid": "sh/lkjm1cfa",
+                  "id": "4",
+                  "kind": "shape"
+                }
+              },
+              {
+                "path": "0.2.1",
+                "kind": "text",
+                "requestedSize": {
+                  "width": {
+                    "mode": "hug"
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 704.72,
+                  "height": 16.8
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 235.2,
+                  "width": 704.72,
+                  "height": 16.8
+                },
+                "children": [],
+                "text": "Net loss ratio at portfolio level is 58.5%, while segment-level stress appears in COB 4, Branch K, Channel B, and Product0221.",
+                "transform": "none",
+                "element": {
+                  "aid": "sh/szqtcj6t",
+                  "id": "5",
+                  "kind": "shape"
+                }
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "gap": 6,
+            "effectiveGap": 6,
+            "justifyOffset": 0,
+            "align": "start",
+            "justify": "start",
+            "contentFrame": {
+              "left": 42,
+              "top": 186,
+              "width": 1196,
+              "height": 66
+            },
+            "items": [
+              {
+                "path": "0.2.0",
+                "frame": {
+                  "left": 42,
+                  "top": 186,
+                  "width": 972.61,
+                  "height": 43.2
+                }
+              },
+              {
+                "path": "0.2.1",
+                "frame": {
+                  "left": 42,
+                  "top": 235.2,
+                  "width": 704.72,
+                  "height": 16.8
+                }
+              }
+            ]
+          },
+          {
+            "path": "0.3",
+            "kind": "row",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "hug"
+              }
+            },
+            "intrinsicSize": {
+              "width": 439.72,
+              "height": 44.8
+            },
+            "frame": {
+              "left": 42,
+              "top": 270,
+              "width": 1196,
+              "height": 85.6
+            },
+            "children": [
+              {
+                "path": "0.3.0",
+                "kind": "column",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 101.26,
+                  "height": 44.8
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 44.8
+                },
+                "children": [
+                  {
+                    "path": "0.3.0.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 101.26,
+                      "height": 27.6
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 270,
+                      "width": 101.26,
+                      "height": 27.6
+                    },
+                    "children": [],
+                    "text": "IDR 1.964T",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/3ex0nuxc",
+                      "id": "6",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.3.0.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 59.51,
+                      "height": 13.2
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 301.6,
+                      "width": 59.51,
+                      "height": 13.2
+                    },
+                    "children": [],
+                    "text": "Net premium",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/at47y1kr",
+                      "id": "7",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 4,
+                "effectiveGap": 4,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 42,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 44.8
+                },
+                "items": [
+                  {
+                    "path": "0.3.0.0",
+                    "frame": {
+                      "left": 42,
+                      "top": 270,
+                      "width": 101.26,
+                      "height": 27.6
+                    }
+                  },
+                  {
+                    "path": "0.3.0.1",
+                    "frame": {
+                      "left": 42,
+                      "top": 301.6,
+                      "width": 59.51,
+                      "height": 13.2
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.3.1",
+                "kind": "column",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 98.24,
+                  "height": 44.8
+                },
+                "frame": {
+                  "left": 344.5,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 85.6
+                },
+                "children": [
+                  {
+                    "path": "0.3.1.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 68.85,
+                      "height": 27.6
+                    },
+                    "frame": {
+                      "left": 344.5,
+                      "top": 270,
+                      "width": 68.85,
+                      "height": 55.2
+                    },
+                    "children": [],
+                    "text": "58.54%",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/loj2t83i",
+                      "id": "8",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.3.1.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 98.24,
+                      "height": 13.2
+                    },
+                    "frame": {
+                      "left": 344.5,
+                      "top": 329.2,
+                      "width": 98.24,
+                      "height": 26.4
+                    },
+                    "children": [],
+                    "text": "Portfolio net loss ratio",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/w3m94fu1",
+                      "id": "9",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 4,
+                "effectiveGap": 4,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 344.5,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 85.6
+                },
+                "items": [
+                  {
+                    "path": "0.3.1.0",
+                    "frame": {
+                      "left": 344.5,
+                      "top": 270,
+                      "width": 68.85,
+                      "height": 55.2
+                    }
+                  },
+                  {
+                    "path": "0.3.1.1",
+                    "frame": {
+                      "left": 344.5,
+                      "top": 329.2,
+                      "width": 98.24,
+                      "height": 26.4
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.3.2",
+                "kind": "column",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 104.65,
+                  "height": 44.8
+                },
+                "frame": {
+                  "left": 647,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 85.6
+                },
+                "children": [
+                  {
+                    "path": "0.3.2.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 102.56,
+                      "height": 27.6
+                    },
+                    "frame": {
+                      "left": 647,
+                      "top": 270,
+                      "width": 102.56,
+                      "height": 55.2
+                    },
+                    "children": [],
+                    "text": "IDR 358.7B",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/udg7adsj",
+                      "id": "10",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.3.2.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 104.65,
+                      "height": 13.2
+                    },
+                    "frame": {
+                      "left": 647,
+                      "top": 329.2,
+                      "width": 104.65,
+                      "height": 26.4
+                    },
+                    "children": [],
+                    "text": "Net underwriting result",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/nyd0z610",
+                      "id": "11",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 4,
+                "effectiveGap": 4,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 647,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 85.6
+                },
+                "items": [
+                  {
+                    "path": "0.3.2.0",
+                    "frame": {
+                      "left": 647,
+                      "top": 270,
+                      "width": 102.56,
+                      "height": 55.2
+                    }
+                  },
+                  {
+                    "path": "0.3.2.1",
+                    "frame": {
+                      "left": 647,
+                      "top": 329.2,
+                      "width": 104.65,
+                      "height": 26.4
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.3.3",
+                "kind": "column",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 93.57,
+                  "height": 44.8
+                },
+                "frame": {
+                  "left": 949.5,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 85.6
+                },
+                "children": [
+                  {
+                    "path": "0.3.3.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 68.85,
+                      "height": 27.6
+                    },
+                    "frame": {
+                      "left": 949.5,
+                      "top": 270,
+                      "width": 68.85,
+                      "height": 55.2
+                    },
+                    "children": [],
+                    "text": "21.77%",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/cj6tovah",
+                      "id": "12",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.3.3.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 93.57,
+                      "height": 13.2
+                    },
+                    "frame": {
+                      "left": 949.5,
+                      "top": 329.2,
+                      "width": 93.57,
+                      "height": 26.4
+                    },
+                    "children": [],
+                    "text": "Premium ceded ratio",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/54zidony",
+                      "id": "13",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 4,
+                "effectiveGap": 4,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 949.5,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 85.6
+                },
+                "items": [
+                  {
+                    "path": "0.3.3.0",
+                    "frame": {
+                      "left": 949.5,
+                      "top": 270,
+                      "width": 68.85,
+                      "height": 55.2
+                    }
+                  },
+                  {
+                    "path": "0.3.3.1",
+                    "frame": {
+                      "left": 949.5,
+                      "top": 329.2,
+                      "width": 93.57,
+                      "height": 26.4
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "gap": 14,
+            "effectiveGap": 14,
+            "justifyOffset": 0,
+            "align": "start",
+            "justify": "start",
+            "contentFrame": {
+              "left": 42,
+              "top": 270,
+              "width": 1196,
+              "height": 85.6
+            },
+            "items": [
+              {
+                "path": "0.3.0",
+                "frame": {
+                  "left": 42,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 44.8
+                }
+              },
+              {
+                "path": "0.3.1",
+                "frame": {
+                  "left": 344.5,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 85.6
+                }
+              },
+              {
+                "path": "0.3.2",
+                "frame": {
+                  "left": 647,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 85.6
+                }
+              },
+              {
+                "path": "0.3.3",
+                "frame": {
+                  "left": 949.5,
+                  "top": 270,
+                  "width": 288.5,
+                  "height": 85.6
+                }
+              }
+            ]
+          },
+          {
+            "path": "0.4",
+            "kind": "row",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "hug"
+              }
+            },
+            "intrinsicSize": {
+              "width": 1178,
+              "height": 214
+            },
+            "frame": {
+              "left": 42,
+              "top": 373.6,
+              "width": 1196,
+              "height": 214
+            },
+            "children": [
+              {
+                "path": "0.4.0",
+                "kind": "column",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fixed",
+                    "value": 560
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 735.29,
+                  "height": 96
+                },
+                "frame": {
+                  "left": 42,
+                  "top": 373.6,
+                  "width": 560,
+                  "height": 112.8
+                },
+                "children": [
+                  {
+                    "path": "0.4.0.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 150.76,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 373.6,
+                      "width": 150.76,
+                      "height": 15.6
+                    },
+                    "children": [],
+                    "text": "Where value is concentrated",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/upwb2hwf",
+                      "id": "14",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.4.0.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 631.23,
+                      "height": 16.8
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 399.2,
+                      "width": 631.23,
+                      "height": 16.8
+                    },
+                    "children": [],
+                    "text": "1. Channel D is the strongest scaled segment with 17.60% net loss ratio and IDR 411.4B net underwriting result.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/nap4r65w",
+                      "id": "15",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.4.0.2",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 664.23,
+                      "height": 16.8
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 426,
+                      "width": 664.23,
+                      "height": 16.8
+                    },
+                    "children": [],
+                    "text": "2. COB 3 is the best-performing class with 6.03% net loss ratio, although the policy base is smaller than major classes.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/cvixczed",
+                      "id": "16",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.4.0.3",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 735.29,
+                      "height": 16.8
+                    },
+                    "frame": {
+                      "left": 42,
+                      "top": 452.8,
+                      "width": 735.29,
+                      "height": 33.6
+                    },
+                    "children": [],
+                    "text": "3. Reinsurance provides claim relief in nominal terms, but lower net premium means net loss ratio can still exceed gross loss ratio.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/5gbq1ory",
+                      "id": "17",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 10,
+                "effectiveGap": 10,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 42,
+                  "top": 373.6,
+                  "width": 560,
+                  "height": 112.8
+                },
+                "items": [
+                  {
+                    "path": "0.4.0.0",
+                    "frame": {
+                      "left": 42,
+                      "top": 373.6,
+                      "width": 150.76,
+                      "height": 15.6
+                    }
+                  },
+                  {
+                    "path": "0.4.0.1",
+                    "frame": {
+                      "left": 42,
+                      "top": 399.2,
+                      "width": 631.23,
+                      "height": 16.8
+                    }
+                  },
+                  {
+                    "path": "0.4.0.2",
+                    "frame": {
+                      "left": 42,
+                      "top": 426,
+                      "width": 664.23,
+                      "height": 16.8
+                    }
+                  },
+                  {
+                    "path": "0.4.0.3",
+                    "frame": {
+                      "left": 42,
+                      "top": 452.8,
+                      "width": 735.29,
+                      "height": 33.6
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.4.1",
+                "kind": "shape",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fixed",
+                    "value": 2
+                  },
+                  "height": {
+                    "mode": "fixed",
+                    "value": 214
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 2,
+                  "height": 214
+                },
+                "frame": {
+                  "left": 630,
+                  "top": 373.6,
+                  "width": 2,
+                  "height": 214
+                },
+                "children": [],
+                "geometry": "rect",
+                "element": {
+                  "aid": "sh/u18jqh0f",
+                  "id": "18",
+                  "kind": "shape"
+                }
+              },
+              {
+                "path": "0.4.2",
+                "kind": "column",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fixed",
+                    "value": 560
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 593.34,
+                  "height": 96
+                },
+                "frame": {
+                  "left": 660,
+                  "top": 373.6,
+                  "width": 560,
+                  "height": 111.6
+                },
+                "children": [
+                  {
+                    "path": "0.4.2.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 213.81,
+                      "height": 15.6
+                    },
+                    "frame": {
+                      "left": 660,
+                      "top": 373.6,
+                      "width": 213.81,
+                      "height": 31.2
+                    },
+                    "children": [],
+                    "text": "Where management attention is needed",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/jm1cfa9w",
+                      "id": "19",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.4.2.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 502.95,
+                      "height": 16.8
+                    },
+                    "frame": {
+                      "left": 660,
+                      "top": 414.8,
+                      "width": 502.95,
+                      "height": 16.8
+                    },
+                    "children": [],
+                    "text": "1. COB 4 is loss-making at 106.55% net loss ratio with -IDR 91.7B net underwriting result.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/bm58z25k",
+                      "id": "20",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.4.2.2",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 515.82,
+                      "height": 16.8
+                    },
+                    "frame": {
+                      "left": 660,
+                      "top": 441.6,
+                      "width": 515.82,
+                      "height": 16.8
+                    },
+                    "children": [],
+                    "text": "2. Branch K and Channel B are the two largest loss pockets, both above 100% net loss ratio.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/m1cfa9w3",
+                      "id": "21",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.4.2.3",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 593.34,
+                      "height": 16.8
+                    },
+                    "frame": {
+                      "left": 660,
+                      "top": 468.4,
+                      "width": 593.34,
+                      "height": 16.8
+                    },
+                    "children": [],
+                    "text": "3. Product0221 is the most material loss-making product in the filtered ranking at 120.59% net loss ratio.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/tsvu9kni",
+                      "id": "22",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 10,
+                "effectiveGap": 10,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 660,
+                  "top": 373.6,
+                  "width": 560,
+                  "height": 111.6
+                },
+                "items": [
+                  {
+                    "path": "0.4.2.0",
+                    "frame": {
+                      "left": 660,
+                      "top": 373.6,
+                      "width": 213.81,
+                      "height": 31.2
+                    }
+                  },
+                  {
+                    "path": "0.4.2.1",
+                    "frame": {
+                      "left": 660,
+                      "top": 414.8,
+                      "width": 502.95,
+                      "height": 16.8
+                    }
+                  },
+                  {
+                    "path": "0.4.2.2",
+                    "frame": {
+                      "left": 660,
+                      "top": 441.6,
+                      "width": 515.82,
+                      "height": 16.8
+                    }
+                  },
+                  {
+                    "path": "0.4.2.3",
+                    "frame": {
+                      "left": 660,
+                      "top": 468.4,
+                      "width": 593.34,
+                      "height": 16.8
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "gap": 28,
+            "effectiveGap": 28,
+            "justifyOffset": 0,
+            "align": "start",
+            "justify": "start",
+            "contentFrame": {
+              "left": 42,
+              "top": 373.6,
+              "width": 1196,
+              "height": 214
+            },
+            "items": [
+              {
+                "path": "0.4.0",
+                "frame": {
+                  "left": 42,
+                  "top": 373.6,
+                  "width": 560,
+                  "height": 112.8
+                }
+              },
+              {
+                "path": "0.4.1",
+                "frame": {
+                  "left": 630,
+                  "top": 373.6,
+                  "width": 2,
+                  "height": 214
+                }
+              },
+              {
+                "path": "0.4.2",
+                "frame": {
+                  "left": 660,
+                  "top": 373.6,
+                  "width": 560,
+                  "height": 111.6
+                }
+              }
+            ]
+          },
+          {
+            "path": "0.5",
+            "kind": "text",
+            "requestedSize": {
+              "width": {
+                "mode": "hug"
+              },
+              "height": {
+                "mode": "hug"
+              }
+            },
+            "intrinsicSize": {
+              "width": 405.1,
+              "height": 12
+            },
+            "frame": {
+              "left": 42,
+              "top": 605.6,
+              "width": 405.1,
+              "height": 12
+            },
+            "children": [],
+            "text": "Source: Step 5 notebook result | Large-claim analysis shown separately as sensitivity, not as forecast",
+            "transform": "none",
+            "element": {
+              "aid": "sh/47y1kre1",
+              "id": "23",
+              "kind": "shape"
+            }
+          }
+        ],
+        "padding": {
+          "top": 42,
+          "right": 42,
+          "bottom": 42,
+          "left": 42
+        },
+        "gap": 18,
+        "effectiveGap": 18,
+        "justifyOffset": 0,
+        "align": "start",
+        "justify": "start",
+        "contentFrame": {
+          "left": 42,
+          "top": 42,
+          "width": 1196,
+          "height": 575.6
+        },
+        "items": [
+          {
+            "path": "0.0",
+            "frame": {
+              "left": 42,
+              "top": 42,
+              "width": 1196,
+              "height": 8
+            }
+          },
+          {
+            "path": "0.1",
+            "frame": {
+              "left": 42,
+              "top": 68,
+              "width": 1196,
+              "height": 100
+            }
+          },
+          {
+            "path": "0.2",
+            "frame": {
+              "left": 42,
+              "top": 186,
+              "width": 1196,
+              "height": 66
+            }
+          },
+          {
+            "path": "0.3",
+            "frame": {
+              "left": 42,
+              "top": 270,
+              "width": 1196,
+              "height": 85.6
+            }
+          },
+          {
+            "path": "0.4",
+            "frame": {
+              "left": 42,
+              "top": 373.6,
+              "width": 1196,
+              "height": 214
+            }
+          },
+          {
+            "path": "0.5",
+            "frame": {
+              "left": 42,
+              "top": 605.6,
+              "width": 405.1,
+              "height": 12
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

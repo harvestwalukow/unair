@@ -4,3 +4,11 @@ SEMESTER 4/Datmin/PraktikumImbalanced/fraudTrain.csv
 SEMESTER 4/Datmin/PraktikumImbalanced/fraudTest.csv
 SEMESTER 4/Datmin/PraktikumImbalanced/balanced_fraud_data.csv
 SEMESTER 4/ADS/gadm41_IDN_shp/gadm41_IDN_4.shp
+
+# Ignore large datasets and generated dependencies
+SEMESTER 6/AKB/uts - Copy/Beauty_and_Personal_Care.jsonl
+SEMESTER 6/AKB/uts/Beauty_and_Personal_Care.jsonl
+SEMESTER 6/AKB/kpi/*.csv
+**/.codex_deps/
+**/node_modules/
+SEMESTER 6/SDC/sdc_axa/

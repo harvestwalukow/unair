@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+data/raw/x_monthly/
+tweets-data/
+data/raw/x/

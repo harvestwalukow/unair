@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Step 5 - Loss Ratio & Profitability Analysis</title>
+  <style>
+    :root {
+      --navy: #112b4a;
+      --blue: #275d9a;
+      --teal: #0d7c78;
+      --ink: #1f2937;
+      --muted: #667085;
+      --line: #d8dee8;
+      --panel: #f7f9fc;
+      --white: #ffffff;
+      --green-bg: #edf8f5;
+      --red-bg: #fff1f1;
+      --blue-bg: #eef4fb;
+      --shadow: 0 18px 50px rgba(17, 43, 74, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px;
+      background:
+        radial-gradient(circle at top left, rgba(39, 93, 154, 0.08), transparent 28%),
+        linear-gradient(180deg, #eef3f8 0%, #f7f9fc 100%);
+      color: var(--ink);
+      font-family: Aptos, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .deck {
+      display: grid;
+      gap: 32px;
+      max-width: 1500px;
+      margin: 0 auto;
+    }
+
+    .slide {
+      background: var(--white);
+      border: 1px solid rgba(17, 43, 74, 0.08);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 34px 38px 28px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      min-height: 1180px;
+    }
+
+    .topbar {
+      height: 8px;
+      width: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--blue), var(--teal));
+      margin-bottom: 22px;
+      flex: 0 0 auto;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 18px;
+    }
+
+    .title {
+      margin: 0;
+      font-size: 34px;
+      line-height: 1.12;
+      color: var(--navy);
+      letter-spacing: -0.03em;
+      max-width: 900px;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      font-size: 14px;
+      line-height: 1.45;
+      color: var(--muted);
+      max-width: 860px;
+    }
+
+    .kicker {
+      min-width: 220px;
+      padding-top: 6px;
+      text-align: right;
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .hero {
+      padding: 18px 22px;
+      background: linear-gradient(90deg, var(--blue-bg), #f9fbfe);
+      border-left: 5px solid var(--blue);
+      border-radius: 18px;
+      margin-bottom: 18px;
+      font-size: 19px;
+      line-height: 1.45;
+      font-weight: 650;
+      color: var(--ink);
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px 18px 16px;
+      min-height: 118px;
+    }
+
+    .metric .value {
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 750;
+      color: var(--navy);
+      margin-bottom: 10px;
+      letter-spacing: -0.03em;
+    }
+
+    .metric .label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+
+    .metric .desc {
+      font-size: 13px;
+      line-height: 1.45;
+      color: var(--ink);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1.02fr 0.98fr;
+      gap: 20px;
+      flex: 1 1 auto;
+      min-height: 0;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 18px 18px 16px;
+      background: var(--white);
+      min-height: 0;
+    }
+
+    .panel-title {
+      margin: 0 0 12px;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      color: var(--blue);
+      text-transform: uppercase;
+    }
+
+    .list {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .list li + li {
+      margin-top: 8px;
+    }
+
+    .list strong {
+      color: var(--navy);
+    }
+
+    .chart-stack {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      align-content: start;
+    }
+
+    .chart-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .chart-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 10px;
+    }
+
+    .chart-card img {
+      width: 100%;
+      height: 320px;
+      object-fit: contain;
+      display: block;
+      background: #fff;
+      border-radius: 10px;
+    }
+
+    .chart-card.large img {
+      height: 420px;
+    }
+
+    .chart-caption {
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.35;
+      font-weight: 600;
+    }
+
+    .summary-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .summary-card {
+      border-radius: 18px;
+      padding: 18px;
+      border: 1px solid var(--line);
+    }
+
+    .summary-card.good {
+      background: var(--green-bg);
+    }
+
+    .summary-card.bad {
+      background: var(--red-bg);
+    }
+
+    .summary-card.neutral {
+      background: var(--blue-bg);
+    }
+
+    .summary-card .small {
+      font-size: 12px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .summary-card .big {
+      font-size: 28px;
+      line-height: 1.05;
+      font-weight: 780;
+      color: var(--navy);
+      margin-bottom: 8px;
+      letter-spacing: -0.03em;
+    }
+
+    .summary-card .copy {
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .footer {
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 1100px) {
+      body {
+        padding: 16px;
+      }
+
+      .slide {
+        min-height: auto;
+      }
+
+      .metrics,
+      .two-col,
+      .chart-row,
+      .summary-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .header {
+        flex-direction: column;
+      }
+
+      .kicker {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="deck">
+    <section class="slide">
+      <div class="topbar"></div>
+
+      <div class="header">
+        <div>
+          <h1 class="title">Step 5 — Segmen Paling Menguntungkan dan Paling Merugikan</h1>
+          <p class="subtitle">
+            Analisis Loss Ratio menunjukkan portofolio masih profitable secara total, tetapi kerugian terkonsentrasi pada beberapa segmen tertentu.
+          </p>
+        </div>
+        <div class="kicker">Loss Ratio & Profitability</div>
+      </div>
+
+      <div class="hero">
+        Net Loss Ratio portofolio berada di <strong>58,54%</strong> dengan <strong>Net Underwriting Result IDR 358,7B</strong>, namun terdapat segmen yang sudah <em>loss-making</em>, terutama <strong>COB 4</strong>, <strong>BRANCH K</strong>, <strong>CHANNEL B</strong>, dan <strong>PRODUCT0221</strong>.
+      </div>
+
+      <div class="metrics">
+        <div class="metric">
+          <div class="label">Net Premium</div>
+          <div class="value">IDR 1.964T</div>
+          <div class="desc">Basis premi setelah dikurangi premi reasuransi.</div>
+        </div>
+        <div class="metric">
+          <div class="label">Net Claim</div>
+          <div class="value">IDR 1.150T</div>
+          <div class="desc">Beban klaim setelah dikurangi recovery reasuransi.</div>
+        </div>
+        <div class="metric">
+          <div class="label">Gross / Net LR</div>
+          <div class="value">49.34% / 58.54%</div>
+          <div class="desc">Net LR lebih tinggi karena net premium lebih kecil setelah cession.</div>
+        </div>
+        <div class="metric">
+          <div class="label">Net UW Result</div>
+          <div class="value">IDR 358.7B</div>
+          <div class="desc">Portofolio total masih profitable secara nominal.</div>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="panel">
+          <h2 class="panel-title">Temuan Utama</h2>
+          <ol class="list">
+            <li><strong>Segmen paling menguntungkan:</strong> `COB 3` dengan <strong>Net LR 6,03%</strong>; `CHANNEL D` menjadi channel terkuat secara skala dengan <strong>Net LR 17,60%</strong> dan <strong>Net underwriting result IDR 411,4B</strong>.</li>
+            <li><strong>Segmen paling merugikan:</strong> `COB 4` mencatat <strong>Net LR 106,55%</strong>, `BRANCH K` <strong>103,87%</strong>, `CHANNEL B` <strong>116,16%</strong>, dan `PRODUCT0221` <strong>120,59%</strong>.</li>
+            <li><strong>Interpretasi reasuransi:</strong> reasuransi membantu menurunkan beban klaim secara nominal, tetapi tidak selalu menurunkan Net LR karena denominator net premium ikut mengecil.</li>
+            <li><strong>Implikasi bisnis:</strong> perhatian utama perlu difokuskan pada segmen yang sudah loss-making karena segmen tersebut menjadi sumber kerugian terbesar portofolio.</li>
+          </ol>
+        </div>
+
+        <div class="panel">
+          <h2 class="panel-title">Plot Pendukung</h2>
+          <div class="chart-stack">
+            <div class="chart-card large">
+              <img src="charts_for_ppt/chart_01_cell7_out1.png" alt="Gross vs Net Loss Ratio by COB" />
+              <div class="chart-caption">Gross vs Net Loss Ratio per COB untuk membandingkan profitabilitas sebelum dan sesudah efek reasuransi.</div>
+            </div>
+            <div class="chart-card large">
+              <img src="charts_for_ppt/chart_02_cell7_out2.png" alt="Reinsurance Claim Relief by COB" />
+              <div class="chart-caption">Claim relief memperlihatkan seberapa besar bantuan reasuransi dalam menurunkan gross claim tiap COB.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">Sumber: `step5_loss_ratio_profitability_analysis_result.ipynb` | Formula: Gross LR = Gross Incurred Claim / GWP, Net LR = Net Incurred Claim / Net Premium</div>
+    </section>
+
+    <section class="slide">
+      <div class="topbar"></div>
+
+      <div class="header">
+        <div>
+          <h1 class="title">Step 5 — Large Claim Menjadi Driver Utama Downside Portofolio</h1>
+          <p class="subtitle">
+            Sensitivity analysis memperlihatkan bahwa sebagian kecil large claim menjelaskan porsi terbesar penurunan profitabilitas portofolio.
+          </p>
+        </div>
+        <div class="kicker">Sensitivity & Trend</div>
+      </div>
+
+      <div class="summary-cards">
+        <div class="summary-card neutral">
+          <div class="small">Portofolio</div>
+          <div class="big">58.54% → 5.07%</div>
+          <div class="copy">Net Loss Ratio turun drastis pada sensitivity analysis saat dampak large claim dikeluarkan.</div>
+        </div>
+        <div class="summary-card bad">
+          <div class="small">Segmen Paling Sensitif</div>
+          <div class="big">COB 4</div>
+          <div class="copy">Net LR membaik dari <strong>106,55%</strong> menjadi <strong>1,43%</strong>, menandakan downside sangat terkonsentrasi pada shock claim besar.</div>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="panel">
+          <h2 class="panel-title">Interpretasi dan Implikasi</h2>
+          <ol class="list">
+            <li><strong>Large claim adalah driver utama downside.</strong> Selain `COB 4`, segmen yang sangat sensitif adalah `COB 6` dan `COB 7`.</li>
+            <li><strong>Tren underwriting year:</strong> cohort <strong>2021</strong> adalah yang paling lemah dengan <strong>Net LR 68,77%</strong>, membaik di <strong>2022</strong> ke <strong>32,78%</strong>, lalu naik lagi di <strong>2023</strong> menjadi <strong>38,24%</strong>.</li>
+            <li><strong>Rekomendasi utama:</strong> perketat underwriting terms dan pricing untuk `COB 4`, `CHANNEL B`, dan `PRODUCT0221`.</li>
+            <li><strong>Rekomendasi lanjutan:</strong> review claim management, reserving, serta struktur reasuransi untuk segmen dengan claim relief rendah tetapi downside volatility tinggi.</li>
+          </ol>
+        </div>
+
+        <div class="panel">
+          <h2 class="panel-title">Plot Pendukung</h2>
+          <div class="chart-stack">
+            <div class="chart-row">
+              <div class="chart-card">
+              <img src="charts_for_ppt/chart_03_cell8_out2.png" alt="Sensitivity to Large Claims" />
+              <div class="chart-caption">Penurunan Net LR per COB jika dampak large claim dikeluarkan pada sensitivity analysis.</div>
+              </div>
+              <div class="chart-card">
+              <img src="charts_for_ppt/chart_04_cell9_out1.png" alt="Loss Ratio Trend by Underwriting Year" />
+              <div class="chart-caption">Tren Loss Ratio per underwriting year untuk melihat cohort mana yang paling lemah.</div>
+              </div>
+            </div>
+            <div class="chart-card large">
+              <img src="charts_for_ppt/chart_05_cell9_out3.png" alt="Net Loss Ratio Trend by Underwriting Year and COB" />
+              <div class="chart-caption">Tren Net Loss Ratio per underwriting year dan COB untuk mengidentifikasi segmen mana yang konsisten melemah atau membaik.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">Catatan: analisis large claim adalah sensitivity analysis, bukan proyeksi realistis kondisi aktual tanpa large claim.</div>
+    </section>
+  </main>
+</body>
+</html>

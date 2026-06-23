@@ -1,0 +1,13 @@
+feature,pc1_loading
+x_tweet_volume_log1p,-0.027598455630625553
+x_negative_sentiment_mean,0.10360161760599554
+x_negative_tweet_ratio,0.09068832678056496
+gt_harga_naik,0.46541666496860123
+gt_biaya_hidup,0.35643733146657924
+gt_harga_beras,0.30068895526406725
+gt_harga_bbm,0.4342823647769093
+gt_phk,0.15618471030142975
+gt_mean_score,0.5768717994489168
+usd_idr_return,0.013217199313829614
+usd_idr_volatility_4w,-0.0028597715406847857
+rupiah_depreciation_dummy,0.015741175689743668

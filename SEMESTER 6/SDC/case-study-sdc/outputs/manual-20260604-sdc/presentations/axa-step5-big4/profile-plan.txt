@@ -1,0 +1,22 @@
+task mode: create
+primary deck-profile: finance-ir
+secondary profile gates: strategy-leadership
+required proof objects:
+- KPI summary with portfolio-level premium, claim, and underwriting result
+- Segment-level profitability proof for best and worst segments
+- Large-claim sensitivity proof
+- Action-oriented management takeaway
+source/asset requirements:
+- use only figures from step5_loss_ratio_profitability_analysis_result.ipynb
+- no external logos or brand marks
+- editable native PPT shapes and text only
+brand authenticity constraints:
+- no pseudo-logos
+- rely on consulting-style layout, color, and typography hierarchy
+profile-specific QA gates:
+- every headline must state the conclusion
+- all numbers must reconcile to notebook outputs
+- slide density must remain boardroom-readable
+known missing inputs:
+- no official corporate template
+- no user-provided brand font
